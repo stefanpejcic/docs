@@ -9,15 +9,11 @@ export const RefineLogoSingleIcon = (props: React.SVGProps<SVGSVGElement>) => (
         fill="none"
         {...props}
     >
-        <path
-            fill="currentColor"
-            fillRule="evenodd"
-            d="M18.385.563a5.333 5.333 0 0 0-4.77 0L2.948 5.896A5.333 5.333 0 0 0 0 10.666v10.667a5.333 5.333 0 0 0 2.948 4.77l10.667 5.334c1.501.75 3.269.75 4.77 0l10.667-5.333A5.333 5.333 0 0 0 32 21.334V10.666a5.333 5.333 0 0 0-2.948-4.77L18.385.562Zm-7.718 10.104a5.333 5.333 0 1 1 10.666 0v10.666a5.333 5.333 0 1 1-10.666 0V10.667Z"
-            clipRule="evenodd"
-        />
-        <path
-            fill="currentColor"
-            d="M18.667 10.667a2.667 2.667 0 1 1-5.334 0 2.667 2.667 0 0 1 5.334 0Z"
-        />
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" />
+  <path d="M7 8v.01" />
+  <path d="M7 16v.01" />
+  <path d="M20 15l-2 3h3l-2 3" />
     </svg>
 );

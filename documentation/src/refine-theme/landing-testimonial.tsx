@@ -48,7 +48,7 @@ export const LandingTestimonial: FC<Props> = ({ className }) => {
                     >
                         difference
                     </span>{" "}
-                    that Refine makes
+                    that OpenPanel makes
                 </h2>
             </div>
 

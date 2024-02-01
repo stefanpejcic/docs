@@ -1,15 +1,10 @@
 import clsx from "clsx";
 import React from "react";
-import { useCommunityStatsContext } from "../context/CommunityStats";
-import { GithubIcon } from "./icons/github";
-import { Spinner } from "./spinner";
-
 export const LandingGithubStarButton = () => {
-    const { loading, githubStarCountText } = useCommunityStatsContext();
 
     return (
         <a
-            href="https://github.com/refinedev/refine"
+            href="https://demo.openpanel.co/"
             target="_blank"
             rel="noreferrer"
             className={clsx(
@@ -24,18 +19,9 @@ export const LandingGithubStarButton = () => {
                 "ease-in-out",
             )}
         >
-            <GithubIcon className={clsx("w-5 h-5")} />
+
             <div className={clsx("flex items-center", "w-10 h-6")}>
-                {loading ? (
-                    <Spinner
-                        className={clsx("w-5 h-5")}
-                        wrapperProps={{
-                            className: clsx("mx-auto"),
-                        }}
-                    />
-                ) : (
-                    <span>{githubStarCountText}</span>
-                )}
+                    <span>DEMO</span>
             </div>
         </a>
     );

@@ -90,8 +90,8 @@ export const LandingPureReactCode: FC<Props> = ({
                             {description}
                         </p>
                         {cta && (
-                            <LandingSectionCtaButton to="https://google.com">
-                                Compare OpenPaenl
+                            <LandingSectionCtaButton to="/docs">
+                                Compare OpenPanel
                             </LandingSectionCtaButton>
                         )}
                     </div>

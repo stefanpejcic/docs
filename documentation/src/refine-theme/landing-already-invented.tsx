@@ -187,7 +187,7 @@ export const LandingAlreadyInvented: FC<Props> = ({ className }) => {
                             All the necessary features for running a web hosting server are integrated, eliminating the need to purchase additional software for tasks like backups, WordPress management or user isolation.
                         </p>
                         <LandingSectionCtaButton to="/docs">
-                            Compate OpenPanel
+                            Compare OpenPanel
                         </LandingSectionCtaButton>
                     </div>
                 </div>

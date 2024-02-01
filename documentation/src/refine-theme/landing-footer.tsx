@@ -147,7 +147,7 @@ export const LandingFooter = () => {
                             <RefineLogoSingleIcon />
                         </Link>
                         <a
-                            href="https://www.producthunt.com/posts/refine-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-refine&#0045;3"
+                            href="#"
                             target="_blank"
                             rel="noreferrer"
                             className={clsx("hover:no-underline")}
