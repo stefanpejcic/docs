@@ -16,6 +16,7 @@ const siteConfig = {
     tagline: "Build your React-based CRUD applications, without constraints",
     url: "https://refine.dev",
     baseUrl: "/",
+    onBrokenLinks: 'ignore',
     projectName: "refine",
     organizationName: "refinedev",
     trailingSlash: true,
