@@ -5,7 +5,6 @@ import { menuItems, secondaryMenuItems, socialLinks } from "./footer-data";
 import { HeartOutlinedIcon } from "./icons/heart-outlined";
 import Link from "@docusaurus/Link";
 import { RefineLogoSingleIcon } from "./icons/refine-logo-single";
-#import { PHBadgeIcon } from "./icons/ph-badge";
 
 export const LandingFooter = () => {
     const info = (
