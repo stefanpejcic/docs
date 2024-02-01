@@ -12,7 +12,7 @@ export const LandingHeroCenterSvg = (props: React.SVGProps<SVGSVGElement>) => (
         >
             <image
                 className="hidden dark:block"
-                href="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/landing-hero-animation/center-logo-dark.png"
+                href="/img/circle-logo-homepage-showcase.png"
                 x={0}
                 y={0}
                 width={128}
@@ -20,7 +20,7 @@ export const LandingHeroCenterSvg = (props: React.SVGProps<SVGSVGElement>) => (
             />
             <image
                 className="block dark:hidden"
-                href="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/landing-hero-animation/center-logo-light.png"
+                href="/img/circle-logo-homepage-showcase.png"
                 x={0}
                 y={0}
                 width={128}

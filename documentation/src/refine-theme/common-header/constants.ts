@@ -36,51 +36,9 @@ export type MenuItemType = NavbarPopoverItemType | NavbarItemType;
 
 export const MENU_ITEMS: MenuItemType[] = [
     {
-        isPopover: true,
-        label: "Products",
-        items: [
-            {
-                label: "Documentation",
-                description: "Everything you need to get started.",
-                link: "/docs/",
-                icon: DocumentsIcon,
-            },
-            {
-                label: "Tutorial",
-                description: "Create your first Refine application.",
-                link: "/docs/tutorial/introduction/index/",
-                icon: TutorialIcon,
-            },
-            {
-                label: "Awesome Refine",
-                description: "Repository of awesome things.",
-                link: "https://github.com/refinedev/awesome-refine",
-                icon: AwesomeIcon,
-            },
-            {
-                label: "Integrations",
-                description: "Discover the Refine ecosystem.",
-                link: "/integrations",
-                icon: IntegrationsIcon,
-            },
-            {
-                label: "Templates",
-                description: "Ready-made examples for your project",
-                link: "/templates",
-                icon: ExamplesIcon,
-            },
-            {
-                label: "Blog",
-                description: "Articles about web development.",
-                link: "/blog",
-                icon: BlogIcon,
-            },
-        ],
-    },
-    {
         isPopover: false,
         label: "BETA",
-        href: "/enterprise",
+        href: "/beta",
         icon: NewBadgeIcon,
     },
     {
@@ -90,19 +48,19 @@ export const MENU_ITEMS: MenuItemType[] = [
             {
                 label: "Documentation",
                 description: "Everything you need to get started.",
-                link: "/docs/guides-concepts/contributing/",
+                link: "/docs/",
                 icon: ContributeIcon,
             },
             {
                 label: "Forums",
                 description: "Join our community and help fellow admins!",
-                link: "/week-of-refine",
+                link: "https://community.openpanel.co/",
                 icon: RefineWeekIcon,
             },
             {
                 label: "Contributing",
                 description: "Help us make OpenPanel even better!",
-                link: "https://google.rs",
+                link: "https://github.com/stefanpejcic/openpanel-translations",
                 icon: HackathonsIcon,
             },
         ],
@@ -112,7 +70,7 @@ export const MENU_ITEMS: MenuItemType[] = [
         label: "Company",
         items: [
             {
-                label: "About Refine",
+                label: "About Us",
                 description: "Team & company information.",
                 link: "/about",
                 icon: AboutUsIcon,
@@ -120,13 +78,13 @@ export const MENU_ITEMS: MenuItemType[] = [
             {
                 label: "Become a Partner",
                 description: "Offer your clients pre-installed OpenPanel!",
-                link: "https://google.rs",
+                link: "#",
                 icon: StoreIcon,
             },
             {
                 label: "Meet OpenPanel",
                 description: "Call us for any questions",
-                link: "https://google.rs",
+                link: "#",
                 icon: MeetIcon,
             },
         ],

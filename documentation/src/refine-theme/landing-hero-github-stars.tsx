@@ -9,7 +9,7 @@ export const LandingHeroGithubStars = () => {
 
     return (
         <a
-            href="https://github.com/refinedev/refine"
+            href="/beta"
             target="_blank"
             rel="noopener noreferrer"
             className={clsx(
@@ -112,7 +112,7 @@ export const LandingHeroGithubStars = () => {
                             <span>{githubStarCountText}</span>
                         )}
                     </span>{" "}
-                    <span>GitHub stars so far</span>
+                    <span>active installations so far</span>
                 </span>
             </div>
         </a>
