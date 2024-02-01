@@ -37,7 +37,7 @@ export const menuItems = [
                 href: "/templates",
             },
             {
-                label: "Stack",
+                label: "Technology Stack",
                 href: "/integrations",
             },
         ],
@@ -50,53 +50,53 @@ export const menuItems = [
                 href: "/about",
             },
             {
-                label: "Store",
-                href: "https://store.refine.dev",
+                label: "Become a Partner",
+                href: "/partner",
             },
             {
                 label: "Contact Us",
-                href: "https://form.typeform.com/to/H54hLD9r",
+                href: "#",
             },
         ],
     },
 ];
 
 export const secondaryMenuItems = [
-    // {
-    //     label: "Terms & Conditions",
-    //     href: "#",
-    // },
+     {
+         label: "Terms & Conditions",
+         href: "/terms",
+     },
     {
         label: "Privacy Policy",
         href: "/privacy-policy",
     },
     {
         label: "License",
-        href: "https://github.com/refinedev/refine/blob/master/LICENSE",
+        href: "/LICENSE",
     },
 ];
 
-export const footerDescription = `Refine is a React-based framework for the rapid development of web applications. It eliminates the repetitive tasks demanded by CRUD operations and provides industry standard solutions.`;
+export const footerDescription = `OpenPanel - web hosting panel.`;
 
 export const socialLinks = [
     {
         icon: FooterGithubIcon,
-        href: "https://github.com/refinedev/refine",
+        href: "https://github.com/stefanpejcic",
     },
     {
         icon: FooterDiscordIcon,
-        href: "https://discord.gg/refine",
+        href: "https://discord.gg/",
     },
     {
         icon: FooterRedditIcon,
-        href: "https://www.reddit.com/r/refine/",
+        href: "https://www.reddit.com/r/open-panel/",
     },
     {
         icon: FooterTwitterIcon,
-        href: "https://twitter.com/refine_dev",
+        href: "https://twitter.com/",
     },
     {
         icon: FooterLinkedinIcon,
-        href: "https://www.linkedin.com/company/refine-dev",
+        href: "https://www.linkedin.com/company/",
     },
 ];

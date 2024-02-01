@@ -343,10 +343,8 @@ const list = [
             "dark:bg-landing-sweet-spot-glow-red-dark bg-landing-sweet-spot-glow-red-light",
     },
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-      state management. Let Refine automatically transform
-      your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <ListIcon
                 className={clsx(
@@ -369,10 +367,8 @@ const list = [
             "dark:bg-landing-sweet-spot-glow-orange-dark bg-landing-sweet-spot-glow-orange-light",
     },
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-state management. Let Refine automatically transform
-your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <ChartsIcon
                 className={clsx(
@@ -395,10 +391,8 @@ your UI elements to enterprise-grade:`,
             "dark:bg-landing-sweet-spot-glow-yellow-dark bg-landing-sweet-spot-glow-yellow-light",
     },
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-  state management. Let Refine automatically transform
-  your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <FormsIcon
                 className={clsx(
@@ -421,10 +415,8 @@ your UI elements to enterprise-grade:`,
             "dark:bg-landing-sweet-spot-glow-cyan-dark bg-landing-sweet-spot-glow-cyan-light",
     },
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-  state management. Let Refine automatically transform
-  your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <WizardsIcon
                 className={clsx(
@@ -447,10 +439,8 @@ your UI elements to enterprise-grade:`,
             "dark:bg-landing-sweet-spot-glow-blue-dark bg-landing-sweet-spot-glow-blue-light",
     },
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-  state management. Let Refine automatically transform
-  your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <AuthenticationIcon
                 className={clsx(

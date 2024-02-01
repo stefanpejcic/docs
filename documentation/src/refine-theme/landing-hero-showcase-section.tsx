@@ -513,108 +513,6 @@ const ShowcaseHR = ({ className }: { className?: string }) => {
     );
 };
 
-const ShowcaseECommerce = ({ className }: { className?: string }) => {
-    return (
-        <ShowcaseWrapper
-            className={className}
-            render="/img/openpanel.png"
-            highlights={[
-                {
-                    x: 843,
-                    y: 8,
-                    width: 142,
-                    height: 48,
-                    render: "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/finefoods/language.png",
-                    codePosition: "left",
-                    code: `
-                            import { useSetLocale, useGetLocale } from "@refinedev/core";
-
-                            const currentLanguage = useGetLocale();
-                            const setLanguage = useSetLocale();
-
-                            const onChange = (language: string) => {
-                                setLanguage(language);
-                            };
-                            `,
-                },
-                {
-                    x: 211,
-                    y: 131,
-                    width: 618,
-                    height: 354,
-                    render: "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/finefoods/map.png",
-                    codePosition: "right",
-                    codeClassName: "!pl-2",
-                    overlap: true,
-                    code: `
-                            import { useShow } from "@refinedev/core";
-
-                            const { data } = useShow({
-                                liveMode: "auto"
-                            });
-                            
-                            return <Map {...data} />;
-                            `,
-                },
-                {
-                    x: 950,
-                    y: 72,
-                    width: 210,
-                    height: 48,
-                    render: "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/finefoods/actions.png",
-                    codePosition: "left",
-                    code: `
-                    import { useResource, useUpdate } from "@refinedev/core";
-
-                    const { id }  = useResource();
-                    const { mutate } = useUpdate();
-
-                    const onReject = () => mutate({
-                        resource: “orders”,
-                        id,
-                        values: {
-                            status: “rejected”,
-                        },
-                    });
-                    `,
-                },
-                {
-                    x: 8,
-                    y: 216,
-                    width: 184,
-                    height: 120,
-                    render: "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/finefoods/menu.png",
-                    codePosition: "right",
-                    code: `
-                    
-                    import { Refine } from "@refinedev/core";
-
-                    <Refine
-                        resources={[
-                            {
-                                name: "stores",
-                                meta: { ... },
-                            }
-                            {
-                                name: "products",
-                                meta: { parent: "stores", },  
-                            },
-                            {
-                                name: "categories",
-                                meta: { parent: "stores", },  
-                            }
-                        ]}
-                    >   
-                        ...
-                    </Refine>
-                    
-                    `,
-                },
-            ]}
-        />
-    );
-};
-
 const ShowcaseDevOps = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
@@ -715,12 +613,6 @@ const apps = [
         name: "OpenAdmin",
         link: "https://demo.openpanel.co/openadmin/",
         showcase: ShowcaseHR,
-        label: "See live demo",
-    },
-    {
-        name: "OpenCLI",
-        link: "https://demo.openpanel.co/opencli/",
-        showcase: ShowcaseECommerce,
         label: "See live demo",
     },
     {
