@@ -195,7 +195,7 @@ const mainSidebar = {
     // Promo
     {
         type: "link",
-        href: "/enterprise",
+        href: "/beta",
         label: "OpenPanel BETA",
         className: "enterprise-badge",
     }
@@ -207,7 +207,7 @@ const mainSidebar = {
     // Promo
     {
       type: 'link',
-      href: '/enterprise',
+      href: '/beta',
       label: 'OpenPanel BETA',
       className: 'enterprise-badge',
     },
@@ -218,7 +218,7 @@ const mainSidebar = {
     // Promo
     {
       type: 'link',
-      href: '/enterprise',
+      href: '/beta',
       label: 'OpenPanel BETA',
       className: 'enterprise-badge',
     },
