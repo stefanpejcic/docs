@@ -13,8 +13,8 @@ const tutorialData = require("./tutorial-units");
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
     title: "OpenPanel",
-    tagline: "Build your React-based CRUD applications, without constraints",
-    url: "https://refine.dev",
+    tagline: 'Unparalleled support. Effortless website hosting. Continuous feature development.',
+    url: "https://openpanel.co",
     baseUrl: "/",
     onBrokenLinks: 'ignore',
     projectName: "refine",
@@ -175,10 +175,16 @@ const siteConfig = {
         },
         image: "img/refine_social.png",
         algolia: {
-            appId: "KRR9VEUPCT",
-            apiKey: "cd0188125dcd31fb4b011b5e536d963a",
-            indexName: "refine",
+            appId: "AEUKT9VWIW",
+            apiKey: '8c38649d5d06ae64c7d6c595b9dcf4ac',
+            indexName: 'codex-openpanel'
             contextualSearch: true,
+            replaceSearchResultPathname: {
+                from: '/docs/', // or as RegExp: /\/docs\//
+                to: '/',
+            },
+            searchParameters: {},
+            searchPagePath: 'search',
         },
         metadata: [
             {
