@@ -7,9 +7,6 @@ import PromotionBanner from "@site/src/components/blog/promotion";
 import TwitterBanner from "@site/src/components/blog/twitter-banner";
 import Checklist from "@site/src/components/checklist";
 import ChecklistItem from "@site/src/components/checklist-item";
-import CodeSandboxExample from "@site/src/components/codesandbox-example";
-import ExampleLocalPrompt from "@site/src/components/example-local-prompt";
-import ExampleSourcePrompt from "@site/src/components/example-source-prompt";
 import GeneralConceptsLink from "@site/src/components/general-concepts-link";
 import { GlobalConfigBadge } from "@site/src/components/global-config-badge";
 import { GuideBadge } from "@site/src/components/guide-badge";
@@ -45,9 +42,6 @@ export default {
     TabItem: CommonTabItem,
     blockquote: Blockquote,
     GeneralConceptsLink,
-    CodeSandboxExample,
-    ExampleLocalPrompt,
-    ExampleSourcePrompt,
     BannerRandom,
     Sandpack,
     GuideBadge,
