@@ -13,7 +13,6 @@ import { GuideBadge } from "@site/src/components/guide-badge";
 import PropTag from "@site/src/components/prop-tag";
 import PropsTable from "@site/src/components/props-table";
 import { RouterBadge } from "@site/src/components/router-badge";
-import { Sandpack } from "@site/src/components/sandpack";
 import UIConditional from "@site/src/components/ui-conditional";
 import CommonDetails from "@site/src/refine-theme/common-details";
 import CommonSummary from "@site/src/refine-theme/common-summary";
@@ -43,7 +42,6 @@ export default {
     blockquote: Blockquote,
     GeneralConceptsLink,
     BannerRandom,
-    Sandpack,
     GuideBadge,
     RouterBadge,
     GlobalConfigBadge,
