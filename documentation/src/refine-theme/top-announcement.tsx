@@ -110,7 +110,7 @@ export const TopAnnouncement = () => {
 const Text = () => {
     return (
         <a
-            href="https://s.refine.dev/devtools-beta"
+            href="https://google.rs"
             target="_blank"
             rel="noreferrer"
             className={clsx(
@@ -132,8 +132,9 @@ const Text = () => {
             )}
         >
             <div className={clsx("ml-2", "not-prose")}>
-                Unlock powerful debugging and effortless query monitoring with{" "}
-                <span className={clsx("font-semibold")}>Refine Devtools</span>
+                {" "}
+                <span className={clsx("font-semibold")}>OpenPanel BETA</span>
+                is out! Give it a spin and join our active and growing community on community.openpanel.co
                 <span
                     className={clsx(
                         "text-refine-cyan-alt hover:text-refine-cyan-alt",

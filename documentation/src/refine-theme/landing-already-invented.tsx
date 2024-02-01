@@ -12,19 +12,19 @@ import { LandingSectionCtaButton } from "./landing-section-cta-button";
 
 const list = [
     {
-        label: "Resource limiting",
+        label: "Components",
         icon: <ComponentsIcon />,
     },
     {
-        label: "Remote backups",
+        label: "Routes",
         icon: <RoutesIcon />,
     },
     {
-        label: "Service settings",
+        label: "Utilities",
         icon: <UtilitiesIcon />,
     },
     {
-        label: "Custom branding",
+        label: "Interfaces",
         icon: <InterfacesIcon />,
     },
     {
@@ -184,7 +184,9 @@ export const LandingAlreadyInvented: FC<Props> = ({ className }) => {
                                 "dark:text-gray-400 text-gray-600",
                             )}
                         >
-                        All the necessary features for running a web hosting server are integrated, eliminating the need to purchase additional software for tasks like backups, WordPress management or user isolation.
+                            Start with a well-structured boilerplate, built
+                            around the industry’s best practices.
+                        </p>
                         <LandingSectionCtaButton to="/docs">
                             Learn more
                         </LandingSectionCtaButton>
