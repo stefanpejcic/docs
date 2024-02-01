@@ -20,7 +20,7 @@ export const EnterpriseGetInTouchButton: FC<Props> = (props) => {
             )}
         >
             <Link
-                href="https://s.refine.dev/enterprise"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={clsx(
@@ -46,7 +46,7 @@ export const EnterpriseGetInTouchButton: FC<Props> = (props) => {
             >
                 <GetInTouchIcon />
                 <span className={clsx("text-base", "font-semibold")}>
-                    Get in touch
+                    Get your free copy
                 </span>
             </Link>
         </div>
