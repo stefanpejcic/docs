@@ -69,7 +69,7 @@ export const LandingSweetSpot: FC<Props> = ({ className }) => {
                     >
                         sweet spot
                     </span>{" "}
-                    between low-code and full-code.
+                    between shared hosting and VPS.
                 </h2>
                 <p
                     className={clsx(
@@ -79,9 +79,7 @@ export const LandingSweetSpot: FC<Props> = ({ className }) => {
                         "dark:text-gray-400 text-gray-600",
                     )}
                 >
-                    Drag-and-drop tools shine initially but collapse under the
-                    weight of complexity. Refine offers comparable speed at the
-                    start and infinite scaling in the long run.
+                    Every OpenPanel user enjoys a dedicated and isolated environment where they can install services, define PHP limits, install new versions, and configure various components such as Redis and Elasticsearch.
                 </p>
             </div>
 
@@ -321,10 +319,8 @@ export const LandingSweetSpot: FC<Props> = ({ className }) => {
 
 const list = [
     {
-        title: "Business applications not only share fundemental UI elements, but also the underlying logic.",
-        description: `Stop writing repetitive code for CRUD, security and
-        state management. Let Refine automatically transform
-        your UI elements to enterprise-grade:`,
+        title: "A Technology Stack for the modern Web",
+        description: `We use modern, lightweight, proven technologies to deliver high-performance.`,
         icon: (props: { active: boolean }) => (
             <DataTablesIcon
                 className={clsx(
@@ -334,7 +330,7 @@ const list = [
                 )}
             />
         ),
-        iconText: "Tables",
+        iconText: "Nginx",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/datatables-ui-dark.png",
         image1Light:
@@ -360,7 +356,7 @@ const list = [
                 )}
             />
         ),
-        iconText: "List",
+        iconText: "Docker",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/list-ui-dark.png",
         image1Light:
@@ -386,7 +382,7 @@ your UI elements to enterprise-grade:`,
                 )}
             />
         ),
-        iconText: "Charts",
+        iconText: "MySQL",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/charts-ui-dark.png",
         image1Light:
@@ -412,7 +408,7 @@ your UI elements to enterprise-grade:`,
                 )}
             />
         ),
-        iconText: "Forms",
+        iconText: "REDIS",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/forms-ui-dark.png",
         image1Light:
@@ -438,7 +434,7 @@ your UI elements to enterprise-grade:`,
                 )}
             />
         ),
-        iconText: "Wizards",
+        iconText: "Python",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/wizards-ui-dark.png",
         image1Light:
@@ -464,7 +460,7 @@ your UI elements to enterprise-grade:`,
                 )}
             />
         ),
-        iconText: "Authentication",
+        iconText: "UFW",
         image1Dark:
             "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/sweet-spot/authentication-ui.png",
         image1Light:

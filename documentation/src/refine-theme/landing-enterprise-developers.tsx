@@ -14,33 +14,33 @@ import { LandingSectionCtaButtonAlt } from "./landing-section-cta-button";
 const list = [
     {
         icon: <SelfHostedIcon />,
-        title: "Self-host for compliance",
+        title: "Limit resource usage",
         description:
-            "Deploy to your own infrastructure without worrying about regulations, performance, and stability. Maintain your current security best practices with no compromises.",
+            "Restrict the number of websites, domains, or databases, while enforcing hard limits on CPU, memory, port speed, disk usage, and inodes.",
     },
     {
         icon: <IdentityIcon />,
-        title: "Leverage the power of your existing Identity Provider",
+        title: "Manage users and websites",
         description:
-            "Native support for Okta, Azure AD, Amazon Cognito & Google Cloud Identity.",
+            "Assign administrative or user roles, manage permissions, restrict access to features, and more.",
     },
     {
         icon: <AccessControlIcon />,
-        title: "Achieve fine-grained access control",
+        title: "Secure by default",
         description:
-            "Out-of-the-box support for widely accepted authorization models including ACL, RBAC & ABAC.",
+            "Enable Two Factor authentification, block IP addresses per domain, control remote MySQL access and SSH access.",
     },
     {
         icon: <BlackBoxIcon />,
-        title: "Unlock the black box",
+        title: "Match your brand",
         description:
-            "Implement an open-source solution with an open architecture. Save yourself from the hassle of adding another proprietary component to your stack.",
+            "Incorporate your brand colors, limit features, configure nameservers, and more.",
     },
     {
         icon: <MonitorIcon />,
-        title: "Effortlessly monitor your application",
+        title: "Monitor your server and users",
         description:
-            "Ready-made providers and components for audit logging and usage analytics.",
+            "Built-in features include logging user activity, visualizing website visitors, and analyzing resource usage.",
     },
     {
         icon: <SupportIcon />,
@@ -69,7 +69,7 @@ export const LandingEnterpriseDevelopers: FC<Props> = ({ className }) => {
                         "dark:text-gray-0 text-gray-900",
                     )}
                 >
-                    Enterprise developers{" "}
+                    Hosting providers{" "}
                     <span className="font-sans text-[#FE251B] drop-shadow-[0_0_30px_rgba(254,37,27,0.3)]">
                         ❤️
                     </span>{" "}
@@ -80,7 +80,7 @@ export const LandingEnterpriseDevelopers: FC<Props> = ({ className }) => {
                             "text-refine-blue drop-shadow-[0_0_30px_rgba(0,128,255,0.3)]",
                         )}
                     >
-                        Refine
+                        OpenPanel
                     </span>
                     .
                 </h2>
@@ -92,8 +92,8 @@ export const LandingEnterpriseDevelopers: FC<Props> = ({ className }) => {
                         "dark:text-gray-400 text-gray-600",
                     )}
                 >
-                    Refine is designed to target the specific pain points of
-                    larger organizations by giving top priority to{" "}
+                    OpenPanel is designed to target the specific pain points of
+                    larger hosting providers by giving top priority to{" "}
                     <span className="font-semibold text-gray-900 dark:text-gray-0">
                         security
                     </span>

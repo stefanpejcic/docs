@@ -706,28 +706,28 @@ const ShowcaseDevOps = ({ className }: { className?: string }) => {
 
 const apps = [
     {
-        name: "CRM Application",
-        link: "https://example.crm.refine.dev",
+        name: "OpenPanel",
+        link: "https://demo.openpanel.co/openpanel/",
         showcase: ShowcaseCRM,
         label: "See live demo",
     },
     {
-        name: "HR Application",
-        link: "https://refine.dev/templates",
+        name: "OpenAdmin",
+        link: "https://demo.openpanel.co/openadmin/",
         showcase: ShowcaseHR,
-        label: "Templates",
+        label: "See live demo",
     },
     {
-        name: "E-Commerce Application",
-        link: "https://example.admin.refine.dev",
+        name: "OpenCLI",
+        link: "https://demo.openpanel.co/opencli/",
         showcase: ShowcaseECommerce,
         label: "See live demo",
     },
     {
-        name: "DevOps Dashboard",
-        link: "https://refine.dev/templates",
+        name: "OpenCLI",
+        link: "https://demo.openpanel.co/",
         showcase: ShowcaseDevOps,
         dark: true,
-        label: "Templates",
+        label: "Browse Commands",
     },
 ];

@@ -7,7 +7,7 @@ import {
 } from "./changing-text-element";
 import { LandingCopySuccessIcon } from "./icons/landing-copy-success";
 
-const installText = "npm create refine-app@latest";
+const installText = "wget -qO https://get.openpanel.co";
 const copiedText = "copied to clipboard!";
 
 export const LandingCopyCommandButton = ({

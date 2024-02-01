@@ -91,8 +91,8 @@ export const LandingTryItSection = ({ className }: { className?: string }) => {
                         "landing-sm:max-w-[446px]",
                     )}
                 >
-                    Choose your way to scaffold your project and start
-                    developing in seconds.
+                    Choose your license and start
+                    hosting websites in minutes.
                 </p>
             </div>
             <div
@@ -178,7 +178,7 @@ const LandingTryItOptionsSection = ({
                         "landing-lg:max-w-[446px]",
                     )}
                 >
-                    Use our online GUI to create, customize, and download.
+                    Utilize our wizard to determine the licensing plan that best suits your requirements.
                 </p>
                 <button
                     type="button"
@@ -205,7 +205,7 @@ const LandingTryItOptionsSection = ({
                 >
                     <LandingStartActionIcon />
                     <span className={clsx("text-base", "font-semibold")}>
-                        Try it in your browser
+                        Choose a license
                     </span>
                 </button>
             </div>
@@ -284,8 +284,7 @@ const LandingTryItOptionsSection = ({
                             "landing-lg:max-w-[446px]",
                         )}
                     >
-                        Run the npm command in Terminal and follow the wizard
-                        instructions.
+                        Install the OpenPanel trial and explore its features for a complimentary 15-day testing period.
                     </p>
                     <LandingCopyCommandButton />
                 </div>

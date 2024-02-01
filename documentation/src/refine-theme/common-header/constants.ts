@@ -37,7 +37,7 @@ export type MenuItemType = NavbarPopoverItemType | NavbarItemType;
 export const MENU_ITEMS: MenuItemType[] = [
     {
         isPopover: true,
-        label: "Open-source",
+        label: "Products",
         items: [
             {
                 label: "Documentation",
@@ -79,7 +79,7 @@ export const MENU_ITEMS: MenuItemType[] = [
     },
     {
         isPopover: false,
-        label: "Enterprise",
+        label: "BETA",
         href: "/enterprise",
         icon: NewBadgeIcon,
     },
@@ -88,21 +88,21 @@ export const MENU_ITEMS: MenuItemType[] = [
         label: "Community",
         items: [
             {
-                label: "Contributing",
-                description: "Join open-source contributors.",
+                label: "Documentation",
+                description: "Everything you need to get started.",
                 link: "/docs/guides-concepts/contributing/",
                 icon: ContributeIcon,
             },
             {
-                label: "RefineWeek",
-                description: "Weekly projects to practice refine.",
+                label: "Forums",
+                description: "Join our community and help fellow admins!",
                 link: "/week-of-refine",
                 icon: RefineWeekIcon,
             },
             {
-                label: "Hackathons",
-                description: "Compete in hackathons and earn prizes!",
-                link: "https://s.refine.dev/hackathon2",
+                label: "Contributing",
+                description: "Help us make OpenPanel even better!",
+                link: "https://google.rs",
                 icon: HackathonsIcon,
             },
         ],
@@ -118,15 +118,15 @@ export const MENU_ITEMS: MenuItemType[] = [
                 icon: AboutUsIcon,
             },
             {
-                label: "Swag Store",
-                description: "T-shirts, caps, and more!",
-                link: "https://store.refine.dev",
+                label: "Become a Partner",
+                description: "Offer your clients pre-installed OpenPanel!",
+                link: "https://google.rs",
                 icon: StoreIcon,
             },
             {
-                label: "Meet Refine",
+                label: "Meet OpenPanel",
                 description: "Call us for any questions",
-                link: "https://refinedev.typeform.com/to/Z9wS06kE",
+                link: "https://google.rs",
                 icon: MeetIcon,
             },
         ],

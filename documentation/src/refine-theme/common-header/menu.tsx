@@ -41,7 +41,7 @@ export const Menu: React.FC = () => {
                                         ))}
                                     </div>
                                     <Link
-                                        to="https://github.com/refinedev/refine"
+                                        to="https://github.com/"
                                         className="no-underline"
                                     >
                                         <div
@@ -59,7 +59,7 @@ export const Menu: React.FC = () => {
                                                     "dark:text-gray-400 text-gray-600",
                                                 )}
                                             >
-                                                If you like Refine, don’t forget
+                                                If you like OpenPanel, don’t forget
                                                 to star us on GitHub!
                                             </div>
                                         </div>
@@ -97,7 +97,7 @@ export const Menu: React.FC = () => {
                                         </div>
                                         <div className="flex gap-4">
                                             <Link
-                                                to="https://github.com/refinedev/refine"
+                                                to="https://github.com/"
                                                 className={clsx(
                                                     "no-underline",
                                                     "hover:text-inherit",
@@ -105,10 +105,10 @@ export const Menu: React.FC = () => {
                                             >
                                                 <GithubIcon className="dark:text-gray-400 text-gray-500" />
                                             </Link>
-                                            <Link to="https://discord.com/invite/refine">
+                                            <Link to="https://discord.com/">
                                                 <DiscordIcon />
                                             </Link>
-                                            <Link to="https://twitter.com/refine_dev">
+                                            <Link to="https://twitter.com/">
                                                 <TwitterIcon />
                                             </Link>
                                         </div>

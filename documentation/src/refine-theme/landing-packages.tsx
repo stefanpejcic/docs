@@ -153,7 +153,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                             "dark:text-gray-300 text-gray-900",
                         )}
                     >
-                        Seamless connectivity
+                        Support for your favorite tools and technologies
                     </h6>
                     <div
                         className={clsx(
@@ -173,11 +173,10 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                                 "dark:text-gray-400 text-gray-600",
                             )}
                         >
-                            Out-of-the box integrations for 15+ services
-                            including custom REST and GraphQL API’s.
+                            Out-of-the box support for 15+ tools including Deno and ElasticSearch.
                         </p>
                         <LandingSectionCtaButton to="/integrations">
-                            All integrations
+                            Supported Platforms
                         </LandingSectionCtaButton>
                     </div>
                 </div>

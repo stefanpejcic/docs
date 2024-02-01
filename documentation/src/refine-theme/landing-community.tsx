@@ -19,21 +19,21 @@ export const LandingCommunity: FC<Props> = ({ className }) => {
         return [
             {
                 stat: githubStarCountText,
-                description: "Stars on GitHub",
-                href: "https://github.com/refinedev/refine",
+                description: "Active installations",
+                href: "https://github.com/stefanpejcic",
             },
             {
                 stat: "8K+",
                 description:
-                    "Projects on production, including large enterprises",
+                    "Resolved issues and forum topics",
             },
             {
-                stat: "32K+",
-                description: "Active developers in our open-source community",
+                stat: "420K+",
+                description: "End users are hosting websites using OpenPanel",
             },
             {
-                stat: "200K+",
-                description: "End users are using apps built with Refine",
+                stat: "1M+",
+                description: "Websites are running on OpenAdmin servers",
             },
         ];
     }, [githubStarCountText]);
@@ -159,27 +159,27 @@ export const LandingCommunity: FC<Props> = ({ className }) => {
                             "dark:text-gray-400 text-gray-600",
                         )}
                     >
-                        Backed by{" "}
+                        Built by{" "}
                         <a
-                            href="https://www.ycombinator.com/"
+                            href="https://www.google.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={clsx(
                                 "dark:text-gray-0 text-gray-900 whitespace-nowrap no-underline",
                             )}
                         >
-                            Y Combinator
+                           MI
                         </a>{" "}
                         and{" "}
                         <a
-                            href="https://ee.500.co/"
+                            href="https://ja.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={clsx(
                                 "dark:text-gray-0 text-gray-900 whitespace-nowrap no-underline ",
                             )}
                         >
-                            500 Emerging Europe
+                            JA
                         </a>
                         .
                     </div>

@@ -26,7 +26,7 @@ export const LandingFooter = () => {
                     "text-gray-900 dark:text-gray-0",
                 )}
             >
-                Refine Development Inc.
+                OpenPanel Co.
             </div>
             <div
                 className={clsx(
@@ -36,7 +36,7 @@ export const LandingFooter = () => {
                     "text-gray-600 dark:text-gray-400",
                 )}
             >
-                256 Chapman Road STE 105-4 Newark, DE 19702
+                256 Chapman Road STE 105-4 Amsterdam, NL 19702
             </div>
             <a
                 href="mailto:info@refine.dev"
@@ -49,7 +49,7 @@ export const LandingFooter = () => {
                     "hover:no-underline",
                 )}
             >
-                info@refine.dev
+                info@openpanel.co
             </a>
         </div>
     );
@@ -330,7 +330,7 @@ export const LandingFooter = () => {
                         )}
                     >
                         {
-                            "© 2024, Refine from San Francisco to wherever you're with "
+                            "© 2024, OpenPanel  - made with  "
                         }
                         <HeartOutlinedIcon
                             className={clsx(

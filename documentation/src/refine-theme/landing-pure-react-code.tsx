@@ -16,10 +16,8 @@ type Props = {
 
 export const LandingPureReactCode: FC<Props> = ({
     className,
-    title = "100% Pure React code",
-    description = `Don’t get locked-in to proprietary, black-box
-    solutions. With Refine you have always 100% control
-    over your project.`,
+    title = "100% Control",
+    description = `Don’t settle for overpriced and outdated hosting panels. With OpenPanel, you maintain 100% control over your server and data at all times.`,
     cta = true,
 }) => {
     return (
@@ -92,8 +90,8 @@ export const LandingPureReactCode: FC<Props> = ({
                             {description}
                         </p>
                         {cta && (
-                            <LandingSectionCtaButton to="https://github.com/refinedev/refine">
-                                Refine on GitHub
+                            <LandingSectionCtaButton to="https://google.com">
+                                Compare OpenPaenl
                             </LandingSectionCtaButton>
                         )}
                     </div>

@@ -12,7 +12,7 @@ const tutorialData = require("./tutorial-units");
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-    title: "Refine",
+    title: "OpenPanel",
     tagline: "Build your React-based CRUD applications, without constraints",
     url: "https://refine.dev",
     baseUrl: "/",
@@ -200,17 +200,17 @@ const siteConfig = {
                     dropdownActiveClassDisabled: true,
                 },
                 {
-                    href: "https://github.com/refinedev/refine",
+                    href: "https://github.com/",
                     position: "right",
                     className: "header-icon-link header-github-link",
                 },
                 {
-                    href: "https://discord.gg/refine",
+                    href: "https://discord.gg/",
                     position: "right",
                     className: "header-icon-link header-discord-link",
                 },
                 {
-                    href: "https://twitter.com/refine_dev",
+                    href: "https://twitter.com/",
                     position: "right",
                     className: "header-icon-link header-twitter-link",
                 },
@@ -261,11 +261,11 @@ const siteConfig = {
                     items: [
                         {
                             label: "About",
-                            to: "https://docusaurus.io/docs/api/docusaurus-config",
+                            to: "https://google.rs",
                         },
                         {
                             label: "Store 🎁",
-                            to: "https://store.refine.dev",
+                            to: "https://google.rs",
                         },
                     ],
                 },
@@ -294,23 +294,23 @@ const siteConfig = {
                     title: "__SOCIAL",
                     items: [
                         {
-                            href: "https://github.com/refinedev/refine",
+                            href: "https://github.com/",
                             label: "github",
                         },
                         {
-                            href: "https://discord.gg/refine",
+                            href: "https://discord.gg/",
                             label: "discord",
                         },
                         {
-                            href: "https://reddit.com/r/refine",
+                            href: "https://reddit.com/r/",
                             label: "reddit",
                         },
                         {
-                            href: "https://twitter.com/refine_dev",
+                            href: "https://twitter.com/",
                             label: "twitter",
                         },
                         {
-                            href: "https://www.linkedin.com/company/refine-dev",
+                            href: "https://www.linkedin.com/company/",
                             label: "linkedin",
                         },
                     ],
@@ -329,13 +329,13 @@ const siteConfig = {
     customFields: {
         /** Footer Fields */
         footerDescription:
-            '<strong style="font-weight:700;">refine</strong> is a React-based framework for the rapid development of web applications. It eliminates the repetitive tasks demanded by <strong style="font-weight:700;">CRUD</strong> operations and provides industry standard solutions.',
+            '<strong style="font-weight:700;">OpenPanel</strong> is a next generation hosting panel for more secure and provacy focused hosting.',
         contactTitle: "Contact",
         contactDescription: [
-            "Refine Development Inc.",
-            "256 Chapman Road STE 105-4 Newark, DE 19702",
+            "OpenPanel Co.",
+            "256 neka adresa 31 Amsterdam, NL 19702",
         ],
-        contactEmail: "info@refine.dev",
+        contactEmail: "info@openpanel.co",
         /** ---- */
         /** Live Preview */
         LIVE_PREVIEW_URL:

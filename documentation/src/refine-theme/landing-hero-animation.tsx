@@ -30,12 +30,12 @@ type ItemType = {
 
 const platformItems: ItemType[] = [
     {
-        name: "Vite",
+        name: "OpenPanel",
         icon: LandingHeroViteIcon,
         color: "#ffa800",
     },
     {
-        name: "Next.js",
+        name: "OpenAdmin",
         icon: (props: React.SVGProps<SVGSVGElement>) => (
             <LandingHeroNextjsIcon
                 {...props}
@@ -49,7 +49,7 @@ const platformItems: ItemType[] = [
         rayClassName: "!text-gray-1000 dark:!text-gray-0",
     },
     {
-        name: "Remix",
+        name: "OpenCLI",
         icon: (props: React.SVGProps<SVGSVGElement>) => (
             <LandingHeroRemixIcon
                 {...props}
@@ -66,17 +66,17 @@ const platformItems: ItemType[] = [
 
 const uiItems: ItemType[] = [
     {
-        name: "Material UI",
+        name: "WordPress",
         icon: LandingHeroMaterialUIIcon,
         color: "#007FFF",
     },
     {
-        name: "Ant Design",
+        name: "NodeJS",
         icon: LandingHeroAntdIcon,
         color: "#148EFF",
     },
     {
-        name: "Chakra UI",
+        name: "Python",
         icon: LandingHeroChakraUIIcon,
         color: "#29C6B7",
     },
@@ -84,17 +84,17 @@ const uiItems: ItemType[] = [
 
 const backendItems: ItemType[] = [
     {
-        name: "Supabase",
+        name: "Nginx",
         icon: LandingHeroSupabaseIcon,
         color: "#3ECF8E",
     },
     {
-        name: "NestJS",
+        name: "Apache",
         icon: LandingHeroNestjsIcon,
         color: "#E0234E",
     },
     {
-        name: "Appwrite",
+        name: "LiteSpeed",
         icon: LandingHeroAppwriteIcon,
         color: "#FD366E",
     },
@@ -102,12 +102,12 @@ const backendItems: ItemType[] = [
 
 const authItems: ItemType[] = [
     {
-        name: "Google",
+        name: "ModSecurity",
         icon: LandingHeroGoogleIcon,
         color: "#EA4335",
     },
     {
-        name: "Auth0",
+        name: "Docker",
         icon: LandingHeroAuth0Icon,
         color: "#EB5424",
     },
