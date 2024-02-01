@@ -31,7 +31,7 @@ export const DocRefineLogo = ({ className }: Props) => {
                         "font-semibold",
                     )}
                 >
-                    Refine
+                    OpenPanel
                 </span>
             </Link>
             <span
@@ -67,12 +67,12 @@ const Logo = (props: React.SVGProps<SVGSVGElement>) => (
         {...props}
     >
         <g fill="currentColor">
-            <path
-                fillRule="evenodd"
-                d="M13.789.422a4 4 0 0 0-3.578 0l-8 4A4 4 0 0 0 0 8v8a4 4 0 0 0 2.211 3.578l8 4a4 4 0 0 0 3.578 0l8-4A4 4 0 0 0 24 16V8a4 4 0 0 0-2.211-3.578l-8-4ZM8 8a4 4 0 1 1 8 0v8a4 4 0 0 1-8 0V8Z"
-                clipRule="evenodd"
-            />
-            <path d="M14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
+	  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+	  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+	  <path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" />
+	  <path d="M7 8v.01" />
+	  <path d="M7 16v.01" />
+	  <path d="M20 15l-2 3h3l-2 3" />
         </g>
     </svg>
 );
