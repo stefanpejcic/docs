@@ -313,7 +313,7 @@ const ShowcaseCRM = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="/static/img/openpanel.png"
+            render="/img/openpanel.png"
             highlights={[
                 {
                     x: 224,
@@ -423,7 +423,7 @@ const ShowcaseHR = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="/static/img/openadmin.png"
+            render="/img/openadmin.png"
             highlights={[
                 {
                     x: 268,
@@ -517,7 +517,7 @@ const ShowcaseECommerce = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="/static/img/openpanel.png"
+            render="/img/openpanel.png"
             highlights={[
                 {
                     x: 843,
@@ -620,7 +620,7 @@ const ShowcaseDevOps = ({ className }: { className?: string }) => {
         <ShowcaseWrapper
             className={className}
             dark
-            render="/static/img/openadmin.png"
+            render="/img/openadmin.png"
             highlights={[
                 {
                     x: 264,

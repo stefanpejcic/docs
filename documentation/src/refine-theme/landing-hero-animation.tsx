@@ -225,7 +225,7 @@ export const LandingHeroAnimation = React.memo(function HeroAnimation() {
                         <LandingHeroAnimationItem
                             vertical="top"
                             horizontal="left"
-                            section="react platform"
+                            section="products"
                             {...platformItems[activePlatform]}
                             previousName={
                                 platformItems[
@@ -239,7 +239,7 @@ export const LandingHeroAnimation = React.memo(function HeroAnimation() {
                         <LandingHeroAnimationItem
                             vertical="top"
                             horizontal="right"
-                            section="ui framework"
+                            section="technology"
                             {...uiItems[activeUI]}
                             previousName={
                                 uiItems[
@@ -261,7 +261,7 @@ export const LandingHeroAnimation = React.memo(function HeroAnimation() {
                         <LandingHeroAnimationItem
                             vertical="bottom"
                             horizontal="left"
-                            section="backend"
+                            section="web servers"
                             {...backendItems[activeBackend]}
                             previousName={
                                 backendItems[
@@ -273,7 +273,7 @@ export const LandingHeroAnimation = React.memo(function HeroAnimation() {
                         <LandingHeroAnimationItem
                             vertical="bottom"
                             horizontal="right"
-                            section="authentication"
+                            section="Tools"
                             {...authItems[activeAuth]}
                             previousName={
                                 authItems[
