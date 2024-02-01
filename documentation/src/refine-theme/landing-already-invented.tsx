@@ -28,7 +28,7 @@ const list = [
         icon: <InterfacesIcon />,
     },
     {
-        label: "Providers",
+        label: "Multi-tenancy",
         icon: <ProvidersIcon />,
     },
 ];

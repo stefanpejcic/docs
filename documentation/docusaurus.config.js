@@ -177,7 +177,7 @@ const siteConfig = {
         algolia: {
             appId: "AEUKT9VWIW",
             apiKey: '8c38649d5d06ae64c7d6c595b9dcf4ac',
-            indexName: 'codex-openpanel'
+            indexName: 'codex-openpanel',
             contextualSearch: true,
             replaceSearchResultPathname: {
                 from: '/docs/', // or as RegExp: /\/docs\//
