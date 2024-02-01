@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://refine.dev/sitemap.xml
+Sitemap: https://openpanel.co/sitemap.xml
