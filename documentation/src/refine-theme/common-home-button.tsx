@@ -21,7 +21,7 @@ export const CommonHomeButton = ({ className }: Props) => {
                 className,
             )}
         >
-            Refine Home
+            OpenPanel Home
         </Link>
     );
 };

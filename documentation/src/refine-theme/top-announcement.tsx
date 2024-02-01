@@ -110,7 +110,7 @@ export const TopAnnouncement = () => {
 const Text = () => {
     return (
         <a
-            href="https://google.rs"
+            href="/beta"
             target="_blank"
             rel="noreferrer"
             className={clsx(

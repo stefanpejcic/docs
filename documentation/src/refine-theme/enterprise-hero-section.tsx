@@ -29,7 +29,7 @@ export const EnterpriseHeroSection = ({
                         "landing-lg:pt-8",
                     )}
                 >
-                    Refine{" "}
+                    OpenPanel{" "}
                     <span
                         className={clsx(
                             "font-semibold",
@@ -49,23 +49,18 @@ export const EnterpriseHeroSection = ({
                         "dark:text-gray-400 text-gray-600",
                     )}
                 >
-                    Our solution for larger organizations with extensive{" "}
+                    We're thrilled to announce that OpenPanel is currently available in open Beta! The open beta test will be open to the public between{" "}
                     <span className={clsx("dark:text-gray-0 text-gray-900")}>
-                        security{" "}
+                        January 25th{" "}
                     </span>
                     and{" "}
                     <span className={clsx("dark:text-gray-0 text-gray-900")}>
-                        support
+                        February 25th, 2024
                     </span>{" "}
-                    needs. Includes official integrations with enterprise-grade{" "}
+                    Participation is free and available to anyone. To take part, simply{" "}
                     <span className={clsx("dark:text-gray-0 text-gray-900")}>
-                        identity providers
-                    </span>{" "}
-                    and{" "}
-                    <span className={clsx("dark:text-gray-0 text-gray-900")}>
-                        relational databases
-                    </span>
-                    .
+                        add your email address to the form bellow
+                    </span>.
                 </p>
                 <EnterpriseGetInTouchButton
                     className={clsx(

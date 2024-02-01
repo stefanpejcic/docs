@@ -2,21 +2,18 @@ import Link from "@docusaurus/Link";
 import clsx from "clsx";
 import React from "react";
 
-import { useCommunityStatsContext } from "@site/src/context/CommunityStats";
 import { HeaderGithubIcon } from "../icons/header-github";
-import { Spinner } from "../spinner";
 
 type GitHubStarProps = {
     isPermanentDark?: boolean;
 };
 
 export const GitHubStar: React.FC<GitHubStarProps> = ({ isPermanentDark }) => {
-    const { githubStarCountText, loading } = useCommunityStatsContext();
 
     return (
         <Link
             className="flex items-center no-underline"
-            to="https://github.com/refinedev/refine"
+            to="https://community.openpanel.co/"
         >
             <HeaderGithubIcon
                 className={clsx(
@@ -34,16 +31,9 @@ export const GitHubStar: React.FC<GitHubStarProps> = ({ isPermanentDark }) => {
                     isPermanentDark && "!text-white",
                 )}
             >
-                {loading ? (
-                    <Spinner
-                        className={clsx("w-5 h-5")}
-                        wrapperProps={{
-                            className: clsx("mx-auto"),
-                        }}
-                    />
-                ) : (
-                    <span className="tabular-nums">{githubStarCountText}</span>
-                )}
+
+            <span className="tabular-nums">Get Support</span>
+
             </div>
         </Link>
     );

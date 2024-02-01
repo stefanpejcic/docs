@@ -241,7 +241,7 @@ const Phone = (props: { className?: string }) => {
 
 const Github = (props: { id?: string }) => {
     return (
-        <Link to="https://github.com/refinedev/refine" className="no-underline">
+        <Link to="https://community.openpanel.co/" className="no-underline">
             <div
                 className={clsx(
                     "border-t dark:border-gray-700 border-gray-300",
@@ -254,7 +254,7 @@ const Github = (props: { id?: string }) => {
                 <div
                     className={clsx("ml-4", "dark:text-gray-400 text-gray-600")}
                 >
-                    If you like Refine, don’t forget to star us on GitHub!
+                    If you like OpenPanel, please help us make it improve it!
                 </div>
             </div>
         </Link>

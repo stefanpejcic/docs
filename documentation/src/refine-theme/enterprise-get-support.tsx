@@ -19,7 +19,7 @@ export const EnterpriseGetSupport = ({ className }: { className?: string }) => {
                         "dark:text-gray-400 text-gray-600",
                     )}
                 >
-                    How Refine helps enterprise teams
+                    How OpenPanel helps hosting providers
                 </h2>
                 <h3 className={clsx("mt-4 landing-sm:mt-10")}>
                     <span className={clsx("dark:text-gray-0 text-gray-900")}>
@@ -86,7 +86,7 @@ export const EnterpriseGetSupport = ({ className }: { className?: string }) => {
                             )}
                         >
                             Exclusive technical support with SLA, provided by
-                            Refine core team members.
+                            OpenPanel core team members.
                         </p>
                         <div
                             className={clsx(
@@ -174,7 +174,7 @@ export const EnterpriseGetSupport = ({ className }: { className?: string }) => {
                             )}
                         >
                             Our acceleration program to help plan, architect and
-                            build your POC & Pilot projects.
+                            build your hosting business.
                         </p>
                     </div>
                 </div>

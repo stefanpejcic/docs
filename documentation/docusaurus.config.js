@@ -17,8 +17,8 @@ const siteConfig = {
     url: "https://openpanel.co",
     baseUrl: "/",
     onBrokenLinks: 'ignore',
-    projectName: "refine",
-    organizationName: "refinedev",
+    projectName: "docs",
+    organizationName: "stefanpejcic",
     trailingSlash: true,
     favicon: "img/refine_favicon.svg",
     scripts: ["https://platform.twitter.com/widgets.js"],
@@ -32,7 +32,7 @@ const siteConfig = {
                           path: "./docs",
                           sidebarPath: require.resolve("./sidebars.js"),
                           editUrl:
-                              "https://github.com/refinedev/refine/tree/master/documentation",
+                              "https://github.com/stefanpejcic/docs/tree/master/documentation",
                           showLastUpdateAuthor: true,
                           showLastUpdateTime: true,
                           disableVersioning:
@@ -72,7 +72,7 @@ const siteConfig = {
                     ],
                 },
                 gtag: {
-                    trackingID: "G-27Z1WY952H",
+                    trackingID: "G-XXXXXX",
                 },
                 sitemap: {
                     ignorePatterns: ["**/_*.md"],
@@ -179,10 +179,10 @@ const siteConfig = {
             apiKey: '8c38649d5d06ae64c7d6c595b9dcf4ac',
             indexName: 'codex-openpanel',
             contextualSearch: true,
-            replaceSearchResultPathname: {
-                from: '/docs/', // or as RegExp: /\/docs\//
-                to: '/',
-            },
+//            replaceSearchResultPathname: {
+//                from: '/docs/', // or as RegExp: /\/docs\//
+//                to: '/',
+//           },
             searchParameters: {},
             searchPagePath: 'search',
         },
