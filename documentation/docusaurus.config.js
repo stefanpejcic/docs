@@ -280,7 +280,7 @@ const siteConfig = {
                     items: [
                         {
                             label: "License",
-                            to: "https://github.com/refinedev/refine/blob/master/LICENSE",
+                            to: "/LICENSE",
                         },
                         // {
                         //     label: "Terms",
@@ -325,11 +325,11 @@ const siteConfig = {
         },
         docs: {
             sidebar: {
-                autoCollapseCategories: true,
+                autoCollapseCategories: false,
             },
         },
         colorMode: {
-            defaultMode: "dark",
+            defaultMode: "light",
         },
     },
     customFields: {

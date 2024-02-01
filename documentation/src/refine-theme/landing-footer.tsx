@@ -5,7 +5,7 @@ import { menuItems, secondaryMenuItems, socialLinks } from "./footer-data";
 import { HeartOutlinedIcon } from "./icons/heart-outlined";
 import Link from "@docusaurus/Link";
 import { RefineLogoSingleIcon } from "./icons/refine-logo-single";
-import { PHBadgeIcon } from "./icons/ph-badge";
+#import { PHBadgeIcon } from "./icons/ph-badge";
 
 export const LandingFooter = () => {
     const info = (
@@ -39,7 +39,7 @@ export const LandingFooter = () => {
                 256 Chapman Road STE 105-4 Amsterdam, NL 19702
             </div>
             <a
-                href="mailto:info@refine.dev"
+                href="mailto:info@openpanel.co"
                 className={clsx(
                     "font-normal",
                     "text-sm",
@@ -146,19 +146,6 @@ export const LandingFooter = () => {
                         >
                             <RefineLogoSingleIcon />
                         </Link>
-                        <a
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer"
-                            className={clsx("hover:no-underline")}
-                        >
-                            <PHBadgeIcon
-                                className={clsx(
-                                    "text-gray-900 dark:text-gray-0",
-                                    "fill-gray-100 dark:fill-gray-700",
-                                )}
-                            />
-                        </a>
                     </div>
                     <div
                         className={clsx(

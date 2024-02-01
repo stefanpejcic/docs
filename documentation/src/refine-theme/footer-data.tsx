@@ -12,7 +12,7 @@ export const menuItems = [
         items: [
             {
                 label: "Getting Started",
-                href: "/docs/getting-started/quickstart",
+                href: "/docs/admin/intro/",
             },
             {
                 label: "Tutorials",
@@ -22,36 +22,24 @@ export const menuItems = [
                 label: "Blog",
                 href: "/blog",
             },
-            {
-                label: "React Admin Panel",
-                href: "https://reactadminpanel.com",
-            },
         ],
     },
     {
         label: "Product",
         items: [
             {
-                label: "Enterprise",
+                label: "BETA",
                 icon: <NewBadgeIcon />,
-                href: "/enterprise",
+                href: "/beta",
             },
             {
-                label: "Templates",
+                label: "Products",
                 href: "/templates",
             },
             {
-                label: "Integrations",
+                label: "Stack",
                 href: "/integrations",
             },
-            // {
-            //     label: "Become an Expert",
-            //     href: "/become-an-expert",
-            // },
-            // {
-            //     label: "Cloud",
-            //     href: "/cloud",
-            // },
         ],
     },
     {

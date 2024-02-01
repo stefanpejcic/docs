@@ -80,7 +80,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                     >
                         easier
                     </span>
-                    , manage{" "}
+                    , scale{" "}
                     <span
                         className={clsx(
                             "font-semibold",
@@ -88,7 +88,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                             "text-refine-purple drop-shadow-[0_0_30px_rgba(128,0,255,0.3)]",
                         )}
                     >
-                        complexity
+                        indefinitely
                     </span>
                     .
                 </h2>
@@ -176,7 +176,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                             Out-of-the box support for 15+ tools including Deno and ElasticSearch.
                         </p>
                         <LandingSectionCtaButton to="/integrations">
-                            Supported Platforms
+                            Supported Services
                         </LandingSectionCtaButton>
                     </div>
                 </div>
