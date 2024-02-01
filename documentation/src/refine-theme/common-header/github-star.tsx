@@ -31,9 +31,7 @@ export const GitHubStar: React.FC<GitHubStarProps> = ({ isPermanentDark }) => {
                     isPermanentDark && "!text-white",
                 )}
             >
-
             <span className="tabular-nums">Get Support</span>
-
             </div>
         </Link>
     );

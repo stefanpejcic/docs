@@ -9,11 +9,10 @@ type Props = {
 };
 
 export const CommonGithubStarButton = ({ className }: Props) => {
-    const { githubStarCountText, loading } = useCommunityStatsContext();
 
     return (
         <a
-            href="https://github.com/refinedev/refine"
+            href="https://community.openpanel.co/"
             target="_blank"
             rel="noreferrer"
             className={clsx(
@@ -29,23 +28,13 @@ export const CommonGithubStarButton = ({ className }: Props) => {
         >
             <GithubIcon className={clsx("w-5 h-5")} />
             <div className={clsx("flex items-center", "min-w-[76px] h-6")}>
-                Star:&nbsp;
-                {loading ? (
-                    <Spinner
-                        className={clsx("w-5 h-5")}
-                        wrapperProps={{
-                            className: clsx("mx-auto"),
-                        }}
-                    />
-                ) : (
                     <span
                         className={clsx(
                             "tabular-nums text-gray-800 dark:text-gray-100",
                         )}
                     >
-                        {githubStarCountText}
+			Get Support
                     </span>
-                )}
             </div>
         </a>
     );

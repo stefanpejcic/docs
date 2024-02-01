@@ -112,7 +112,7 @@ const authItems: ItemType[] = [
         color: "#EB5424",
     },
     {
-        name: "Okta",
+        name: "BIND9",
         icon: (props: React.SVGProps<SVGSVGElement>) => (
             <div className={clsx("p-5", props.className)}>
                 <LandingHeroOktaIcon

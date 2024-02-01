@@ -82,7 +82,7 @@ export const LandingHeroSection = ({ className }: { className?: string }) => {
                         )}
                     >
                         <Link
-                            to="docs"
+                            to="docs/admin/intro/#installation"
                             className={clsx(
                                 "self-start",
                                 "rounded-3xl",
