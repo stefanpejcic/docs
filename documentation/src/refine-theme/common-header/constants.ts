@@ -36,6 +36,24 @@ export type MenuItemType = NavbarPopoverItemType | NavbarItemType;
 
 export const MENU_ITEMS: MenuItemType[] = [
     {
+        isPopover: true,
+        label: "Products",
+        items: [
+            {
+                label: "OpenPanel",
+                description: "End-user interface for hosting websites and domains.",
+                link: "/docs/panel/intro",
+                icon: ExamplesIcon,
+            },
+            {
+                label: "OpenAdmin",
+                description: "Admin-level interface for managing users and servers.",
+                link: "/docs/admin/intro/",
+                icon: IntegrationsIcon,
+            },
+        ],
+    },
+    {
         isPopover: false,
         label: "BETA",
         href: "/beta",
@@ -49,13 +67,13 @@ export const MENU_ITEMS: MenuItemType[] = [
                 label: "Documentation",
                 description: "Everything you need to get started.",
                 link: "/docs/",
-                icon: ContributeIcon,
+                icon: DocumentsIcon,
             },
             {
                 label: "Forums",
                 description: "Join our community and help fellow admins!",
                 link: "https://community.openpanel.co/",
-                icon: RefineWeekIcon,
+                icon: ContributeIcon,
             },
             {
                 label: "Contributing",
