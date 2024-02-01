@@ -192,7 +192,7 @@ const siteConfig = {
                 src: "img/refine_logo.png",
             },
             items: [
-                { to: "blog", label: "Blog", position: "left" },
+                { to: "https://docusaurus.io/docs/api/docusaurus-config", label: "Blog", position: "left" },
                 {
                     type: "docsVersionDropdown",
                     position: "right",
@@ -226,15 +226,15 @@ const siteConfig = {
                     items: [
                         {
                             label: "Getting Started",
-                            to: "docs",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                         {
                             label: "Tutorials",
-                            to: "docs/tutorial/introduction/index/",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                         {
                             label: "Blog",
-                            to: "blog",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                     ],
                 },
@@ -243,15 +243,15 @@ const siteConfig = {
                     items: [
                         {
                             label: "Examples",
-                            to: "examples",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                         {
                             label: "Integrations",
-                            to: "integrations",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                         {
                             label: "Become an Expert",
-                            to: "become-a-refine-expert",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                     ],
                 },
@@ -260,7 +260,7 @@ const siteConfig = {
                     items: [
                         {
                             label: "About",
-                            to: "about",
+                            to: "https://docusaurus.io/docs/api/docusaurus-config",
                         },
                         {
                             label: "Store 🎁",

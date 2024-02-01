@@ -59,7 +59,7 @@ export const LandingHeroSection = ({ className }: { className?: string }) => {
                                 "text-gray-900 dark:text-gray-0",
                             )}
                         >
-                            Open-source Retool for Enterprise
+                            Next Generation Hosting Panel
                         </h1>
                         <p
                             className={clsx(
@@ -69,8 +69,7 @@ export const LandingHeroSection = ({ className }: { className?: string }) => {
                                 "landing-xs:max-w-[384px]",
                             )}
                         >
-                            Build React-based internal tools, admin panels,
-                            dashboards & B2B apps with unmatched flexibility.
+                            Use an intuitive interface to deploy applications, manage databases, and provision SSL certificates.
                         </p>
                     </div>
                     <div
