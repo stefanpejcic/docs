@@ -313,7 +313,7 @@ const ShowcaseCRM = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/crm/base-render.png"
+            render="/static/img/openpanel.png"
             highlights={[
                 {
                     x: 224,
@@ -423,7 +423,7 @@ const ShowcaseHR = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/hr/base_render.png"
+            render="/static/img/openadmin.png"
             highlights={[
                 {
                     x: 268,
@@ -517,7 +517,7 @@ const ShowcaseECommerce = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/finefoods/base_render.png"
+            render="/static/img/openpanel.png"
             highlights={[
                 {
                     x: 843,
@@ -620,7 +620,7 @@ const ShowcaseDevOps = ({ className }: { className?: string }) => {
         <ShowcaseWrapper
             className={className}
             dark
-            render="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/showcase-images/devops/base_render.png"
+            render="/static/img/openadmin.png"
             highlights={[
                 {
                     x: 264,

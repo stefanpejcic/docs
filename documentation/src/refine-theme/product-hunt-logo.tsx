@@ -9,7 +9,7 @@ export const ProductHuntLogo = ({ className }: ProductHuntLogoProps) => {
     return (
         <div className={clsx(className)}>
             <a
-                href="https://www.producthunt.com/posts/refine-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-refine&#0045;3"
+                href="https://www.firma.com"
                 target="_blank"
                 rel="noreferrer"
             >
