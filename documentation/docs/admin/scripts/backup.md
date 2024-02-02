@@ -186,6 +186,39 @@ Available options:
 - `--timezone` - restore timezone setting
 
 
+## List Backups for user
+
+`opencli backup-list` allows you to view available backups for a single user.
+
+```bash
+opencli backup-list <USERNAME> [--json]
+```
+
+
+## View backup details
+
+`opencli backup-details` allows you to view information about a specific user backup.
+
+```bash
+opencli backup-list <USERNAME> <BACKUP_JOB_ID> <DATE> [--json]
+```
+
+Example:
+```bash
+root@server:/# openpanel backup-details nesto 2 20240131170700
+
+backup_job_id=2
+destination_id=1
+destination_directory=20240131170700
+start_time=Wed Jan 31 17:07:52 UTC 2024
+end_time=Wed Jan 31 17:09:35 UTC 2024
+total_exec_time=103
+contains=Full Backup
+status=Completed
+```
+
+
+
 ## Index
 
 `opencli backup-index` allows you to re-index backups from a remote destination and make them available for users.
@@ -211,6 +244,7 @@ Processing user nesto (5/5)
 Indexed 5 backups for user nesto.
 Index complete, found a total of 28 backups for all 5 users.
 ```
+
 
 ## Check
 
