@@ -26,7 +26,7 @@ opencli backup-run <ID> --force-run
 ```
 ### Delete backup job
 ```bash
-opencli backup-job delete
+opencli backup-job delete <ID>
 ```
 
 ## Destination
