@@ -264,6 +264,19 @@ opencli backup-check
 ### Delete Log File
 
 
+## Scheduler
+
+`opencli backup-scheduler` command is executed daily to schedule new backup jobs and ensure they are carried out on time.
+
+Example:
+```bash
+opencli backup-scheduler --debug
+
+0 1 * * SUN opencli backup-run 2  --entrypoint --files --mysql_conf
+0 1 * * * opencli backup-run 3 --conf
+```
+
+
 ## Config
 
 `opencli backup-config` allows you to change general backup settings that affect all backup jobs and destinations.
