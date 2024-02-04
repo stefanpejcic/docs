@@ -1,14 +1,10 @@
 import React from "react";
 
 export const RefineLogoSingleIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={32}
-        height={32}
-        viewBox="0 0 32 32"
-        fill="none"
-        {...props}
-    >
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="32" height="32" viewBox="0 0 213.000000 215.000000"
+ preserveAspectRatio="xMidYMid meet">
+
 <g transform="translate(0.000000,215.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
 <path d="M990 2071 c-39 -13 -141 -66 -248 -129 -53 -32 -176 -103 -272 -158
@@ -21,5 +17,5 @@ fill="#000000" stroke="none">
 -3 261 -3 261 -166 95 c-91 52 -190 109 -219 125 -30 17 -52 34 -51 39 3 9
 424 256 437 255 3 0 59 -31 125 -69z"/>
 </g>
-    </svg>
+</svg>
 );
