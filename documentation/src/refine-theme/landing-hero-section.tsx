@@ -69,7 +69,7 @@ export const LandingHeroSection = ({ className }: { className?: string }) => {
                                 "landing-xs:max-w-[384px]",
                             )}
                         >
-                            Use an intuitive interface to deploy applications, manage databases, and provision SSL certificates.
+Deliver a VPS-like experience to your users at a fraction of the cost, with all-inclusive features such as resource limiting, user isolation, WP Manager, and enhanced security seamlessly integrated for worry-free hosting.
                         </p>
                     </div>
                     <div
