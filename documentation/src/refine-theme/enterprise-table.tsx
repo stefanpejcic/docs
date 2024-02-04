@@ -521,14 +521,14 @@ const tableData = [
         ],
     },
     {
-        title: "Identity Access Management",
+        title: "Additional Features",
         items: [
             {
-                description: "Integrated Providers",
+                description: "Cluster",
                 community: <CrossIcon />,
                 enterprise: (
                     <TableText>
-                        Okta, Azure AD, Amazon Cognito & Google Cloud Identity
+                        Manage accounts from multiple OpenPanel servers
                     </TableText>
                 ),
                 valueType: {
@@ -537,7 +537,7 @@ const tableData = [
                 },
             },
             {
-                description: "Single Sign-On",
+                description: "LiteSpeed",
                 community: <CrossIcon />,
                 enterprise: <CheckIcon />,
                 valueType: {
@@ -546,47 +546,38 @@ const tableData = [
                 },
             },
             {
-                description: "Multi Factor Authentication",
+                description: "Varnish Cache",
                 community: <CrossIcon />,
                 enterprise: <CheckIcon />,
                 valueType: {
                     community: "icon",
                     enterprise: "icon",
-                },
-            },
-            {
-                description: "Support for Authorization Services",
-                community: <CrossIcon />,
-                enterprise: <TableText>ACL, RBAC & ABAC models</TableText>,
-                valueType: {
-                    community: "icon",
-                    enterprise: "text",
                 },
             },
         ],
     },
     {
-        title: "Data Providers",
+        title: "Number of Accounts",
         items: [
             {
-                description: "Direct Database Access",
-                community: <CrossIcon />,
-                enterprise: <TableText>via API Generator</TableText>,
+                description: "Admin Accounts",
+                community: <TableText>1</TableText>,
+                enterprise: <TableText>Unlimited</TableText>,
                 valueType: {
-                    community: "icon",
+                    community: "text",
                     enterprise: "text",
                 },
             },
             {
-                description: "Supported Databases",
-                community: <CrossIcon />,
+                description: "User Accounts",
+                community: <TableText>3</TableText>,
                 enterprise: (
                     <TableText>
-                        Oracle, MSSQL, PostgreSQL, MySQL, MongoDB
+                        Unlimited
                     </TableText>
                 ),
                 valueType: {
-                    community: "icon",
+                    community: "text",
                     enterprise: "text",
                 },
             },
@@ -605,7 +596,7 @@ const tableData = [
                 },
             },
             {
-                description: "Codemod Updates",
+                description: "Container Updates",
                 community: <CrossIcon />,
                 enterprise: <CheckIcon />,
                 valueType: {
@@ -628,7 +619,7 @@ const tableData = [
                 },
             },
             {
-                description: "Code Reviews",
+                description: "Branding & Integration",
                 community: <CrossIcon />,
                 enterprise: <CheckIcon />,
                 valueType: {
@@ -645,12 +636,12 @@ const tableData = [
                 description: "License",
                 community: (
                     <div className={clsx("h-full")}>
-                        <TableText>Open-source under MIT license</TableText>
+                        <TableText>MIT license</TableText>
                     </div>
                 ),
                 enterprise: (
                     <div className={clsx("flex flex-col", "gap-6", "w-full")}>
-                        <TableText>Refine commercial license</TableText>
+                        <TableText>OpenPanel commercial license</TableText>
                         <EnterpriseGetInTouchButton
                             className={clsx("hidden landing-sm:block")}
                             linkClassName={clsx("w-full")}
