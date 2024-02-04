@@ -78,7 +78,7 @@ export const CommonHeader = ({ trackProgress }: Props) => {
                                 "landing-lg:w-[200px]",
                             )}
                         >
-                            <Link to="/" class="flex" onContextMenu={openFigma}>
+                            <Link to="/" class="no-underline flex items-center gap-2" onContextMenu={openFigma}>
                                 <RefineLogoIcon className="text-gray-900 dark:text-gray-0" />
                             
                 <span

@@ -17,7 +17,7 @@ import { CommonHeader } from "../refine-theme/common-header";
 import { LandingTestimonial } from "../refine-theme/landing-testimonial";
 
 function Home() {
-    const title = "Refine | Open-source Retool for Enterprise";
+    const title = "OpenPanel | Next Generation Web Hosting Panel";
     return (
         <>
             <Head>
@@ -30,7 +30,7 @@ function Home() {
                     as="document"
                 />
             </Head>
-            <CommonLayout description="Build React-based internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.">
+            <CommonLayout description="Web Hosting panel powered by Docker">
                 <div className={clsx()}>
                     <CommonHeader />
                     <div
