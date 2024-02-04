@@ -71,13 +71,13 @@ export const MENU_ITEMS: MenuItemType[] = [
             },
             {
                 label: "Forums",
-                description: "Join our community and help fellow admins!",
+                description: "Join our growing community!",
                 link: "https://community.openpanel.co/",
                 icon: ContributeIcon,
             },
             {
                 label: "Contributing",
-                description: "Help us make OpenPanel even better!",
+                description: "Help us improve OpenPanel!",
                 link: "https://github.com/stefanpejcic/openpanel-translations",
                 icon: HackathonsIcon,
             },
@@ -95,14 +95,14 @@ export const MENU_ITEMS: MenuItemType[] = [
             },
             {
                 label: "Become a Partner",
-                description: "Offer your clients pre-installed OpenPanel!",
-                link: "#",
+                description: "Help us spread the word!",
+                link: "/partner",
                 icon: StoreIcon,
             },
             {
                 label: "Meet OpenPanel",
                 description: "Call us for any questions",
-                link: "#",
+                link: "/contact",
                 icon: MeetIcon,
             },
         ],
