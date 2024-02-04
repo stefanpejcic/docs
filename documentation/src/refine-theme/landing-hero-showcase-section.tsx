@@ -313,7 +313,7 @@ const ShowcaseCRM = ({ className }: { className?: string }) => {
     return (
         <ShowcaseWrapper
             className={className}
-            render="/img/dashboard.png"
+            render="/img/panel_cropped.png"
             highlights={[
             ]}
         />
