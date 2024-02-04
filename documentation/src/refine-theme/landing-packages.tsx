@@ -7,6 +7,38 @@ import React, {
     SVGProps,
     useRef,
 } from "react";
+import {
+    Ably,
+    Airtable,
+    Antd,
+    Appwrite,
+    Chakra,
+    Directus,
+    Elide,
+    ElideGraphql,
+    Firebase,
+    Graphql,
+    Hasura,
+    Headless,
+    HookForm,
+    Hygraph,
+    JSONApi,
+    Kbar,
+    Mantine,
+    Medusa,
+    Mui,
+    Nest,
+    NestQuery,
+    Nextjs,
+    Remix,
+    Rest,
+    Sanity,
+    ShadCnUI,
+    SQLite,
+    Strapi,
+    Supabase,
+    TailwindCss,
+} from "../assets/integration-icons";
 import { LandingSectionCtaButton } from "./landing-section-cta-button";
 
 type Props = {
@@ -82,22 +114,24 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                 >
                     <PackagesContainer animDirection="right">
                         {[...listOne, ...listOne].map(
-                            ({ icon: label, tooltip }, index) => (
+                            ({ icon: Icon, label, tooltip }, index) => (
                                 <PackageItem
                                     key={index}
                                     label={label}
                                     tooltip={tooltip}
+                                    icon={<Icon width="24" height="24" />}
                                 />
                             ),
                         )}
                     </PackagesContainer>
                     <PackagesContainer animDirection="left">
                         {[...listTwo, ...listTwo].map(
-                            ({ icon: label, tooltip }, index) => (
+                            ({ icon: Icon, label, tooltip }, index) => (
                                 <PackageItem
                                     key={index}
                                     label={label}
                                     tooltip={tooltip}
+                                    icon={<Icon width="24" height="24" />}
                                 />
                             ),
                         )}
@@ -119,7 +153,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                             "dark:text-gray-300 text-gray-900",
                         )}
                     >
-                        100+ terminal commands
+                        Support for your favorite tools and technologies
                     </h6>
                     <div
                         className={clsx(
@@ -139,10 +173,10 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                                 "dark:text-gray-400 text-gray-600",
                             )}
                         >
-                            OpenCLI serves as the command line interface, enabling you to execute all actions through the terminal.
+                            Out-of-the box support for 15+ tools including Deno and ElasticSearch.
                         </p>
-                        <LandingSectionCtaButton to="/docs/category/openpanel-cli/">
-                            All Commands
+                        <LandingSectionCtaButton to="/integrations">
+                            Supported Services
                         </LandingSectionCtaButton>
                     </div>
                 </div>
@@ -201,10 +235,11 @@ const PackagesContainer = ({
 };
 
 const PackageItem = (props: {
+    icon: ReactNode;
     label: string;
     tooltip: string;
 }) => {
-    const { tooltip, label } = props;
+    const { tooltip, icon, label } = props;
 
     return (
         <div
@@ -222,6 +257,7 @@ const PackageItem = (props: {
                 "cursor-pointer",
             )}
         >
+            <div>{icon}</div>
             <div
                 className={clsx(
                     "text-sm",
@@ -290,126 +326,156 @@ const PackageItem = (props: {
 
 const listOne = [
     {
-        label: "Disable admin panel",
-        tooltip: "opencli admin off",
+        icon: (props: SVGProps<SVGSVGElement>) => <Firebase {...props} />,
+        label: "Firebase",
+        tooltip: "npm i refine-firebase",
     },
     {
-        label: "List Users",
-        tooltip: "opencli user-list",
+        icon: (props: SVGProps<SVGSVGElement>) => <Ably {...props} />,
+        label: "Ably",
+        tooltip: "npm i @refinedev/ably",
     },
     {
-        label: "Reset Password",
-        tooltip: "opencli user-password <USERNAME> <NEW_PASSWORD>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Airtable {...props} />,
+        label: "Airtable",
+        tooltip: "npm i @refinedev/airtable",
     },
     {
-        label: "Set nameservers",
-        tooltip: "opencli config update ns1 <NAMESERVER>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Appwrite {...props} />,
+        label: "Appwrite",
+        tooltip: "npm i @refinedev/appwrite",
     },
     {
-        label: "View logout URL",
-        tooltip: "opencli config get logout_url",
+        icon: (props: SVGProps<SVGSVGElement>) => <Directus {...props} />,
+        label: "Directus",
+        tooltip: "npm i @tspvivek/refine-directus",
     },
     {
-        label: "List plans",
-        tooltip: "opencli plan-list",
+        icon: (props: SVGProps<SVGSVGElement>) => <Elide {...props} />,
+        label: "Elide",
+        tooltip: "npm i elide-simple-rest",
     },
     {
-        label: "Disable 2FA",
-        tooltip: "opencli user-2fa <USERNAME> disable",
+        icon: (props: SVGProps<SVGSVGElement>) => <ElideGraphql {...props} />,
+        label: "Elide GraphQL",
+        tooltip: "npm i elide-simple-graphql",
     },
     {
-        label: "View Backup Jobs",
-        tooltip: "opencli backup-job list",
+        icon: (props: SVGProps<SVGSVGElement>) => <Hasura {...props} />,
+        label: "Hasura",
+        tooltip: "npm i @refinedev/hasura",
     },
     {
-        label: "List SSLs",
-        tooltip: "opencli ssl-user <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <HookForm {...props} />,
+        label: "Hook Form",
+        tooltip: "npm i @refinedev/react-hook-form",
     },
     {
-        label: "Add a new user",
-        tooltip: "opencli user-add <USERNAME> <PASSWORD> <EMAIL> <PLAN_ID>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Antd {...props} />,
+        label: "Ant Design",
+        tooltip: "npm i @refinedev/antd",
     },
     {
-        label: "List backups",
-        tooltip: "opencli backup-list <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Mui {...props} />,
+        label: "Material UI",
+        tooltip: "npm i @refinedev/mui",
     },
     {
-        label: "Set brand name",
-        tooltip: "opencli config update brand_name <NAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Mantine {...props} />,
+        label: "Mantine",
+        tooltip: "npm i @refinedev/mantine",
     },
     {
-        label: "Change PHP version for domain",
-        tooltip: "opencli php-domain_php <DOMAIN-NAME> --update <PHP-VERSION>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Chakra {...props} />,
+        label: "Chakra UI",
+        tooltip: "npm i @refinedev/chakra-ui",
     },
     {
-        label: "Who owns Domain",
-        tooltip: "opencli domains-whoowns <DOMAIN-NAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <ShadCnUI {...props} />,
+        label: "shadcn/ui",
+        tooltip: "npx shadcn-ui init",
     },
     {
-        label: "Assign IP",
-        tooltip: "opencli user-ip <USERNAME> <IP_ADDRESS>",
+        icon: (props: SVGProps<SVGSVGElement>) => <TailwindCss {...props} />,
+        label: "Tailwind CSS",
+        tooltip: "npx tailwindcss init",
     },
     {
-        label: "Enable Memcached",
-        tooltip: "opencli user-memcached enable <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Headless {...props} />,
+        label: "Headless UI",
+        tooltip: "npm i @headlessui/react",
     },
 ];
 
 const listTwo = [
     {
-        label: "Change OpenPanel port",
-        tooltip: "opencli config update port <NEW-PORT>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Graphql {...props} />,
+        label: "GraphQL",
+        tooltip: "npm i @refinedev/graphql",
     },
     {
-        label: "Add Backup Destination",
-        tooltip: "opencli backup-destination create <HOSTNAME> <PASSWORD> <PORT> <USER> <PATH_TO_SSH_KEY_FILE> <STORAGE_PERCENTAGE>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Kbar {...props} />,
+        label: "Kbar",
+        tooltip: "npm i @refinedev/kbar",
     },
     {
-        label: "Generate hostname SSL",
-        tooltip: "opencli ssl-hostname",
+        icon: (props: SVGProps<SVGSVGElement>) => <Medusa {...props} />,
+        label: "Medusa",
+        tooltip: "npm i @refinedev/medusa",
     },
     {
-        label: "View Login Log",
-        tooltip: "opencli user-loginlog <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Nest {...props} />,
+        label: "NestJS CRUD",
+        tooltip: "npm i @refinedev/nestjsx-crud",
     },
     {
-        label: "Install new PHP version",
-        tooltip: "opencli php-install_php_version <USERNAME> <PHP-VERSION>",
+        icon: (props: SVGProps<SVGSVGElement>) => <NestQuery {...props} />,
+        label: "Nestjs-query",
+        tooltip: "npm i @refinedev/nestjs-query",
     },
     {
-        label: "List user domains",
-        tooltip: "opencli domains-user <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Nextjs {...props} />,
+        label: "Next.js",
+        tooltip: "npm i @refinedev/nextjs-router",
     },
     {
-        label: "Suspend user",
-        tooltip: "opencli user-suspend <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Remix {...props} />,
+        label: "Remix",
+        tooltip: "npm i @refinedev/remix-router",
     },
     {
-        label: "Re-index backups",
-        tooltip: "opencli backup-index <ID>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Rest {...props} />,
+        label: "REST",
+        tooltip: "npm i @refinedev/simple-rest",
     },
     {
-        label: "Get PHP version for domain",
-        tooltip: "opencli php-domain_php <DOMAIN-NAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Strapi {...props} />,
+        label: "Strapi",
+        tooltip: "npm i @refinedev/strapi-v4",
     },
     {
-        label: "Check Resource Usage",
-        tooltip: "opencli docker-collect_stats",
+        icon: (props: SVGProps<SVGSVGElement>) => <Supabase {...props} />,
+        label: "Supabase",
+        tooltip: "npm i @refinedev/supabase",
     },
     {
-        label: "Login to User",
-        tooltip: "opencli user-login <USERNAME>",
+        icon: (props: SVGProps<SVGSVGElement>) => <Hygraph {...props} />,
+        label: "Hygraph",
+        tooltip: "npm i @acomagu/refine-hygraph",
     },
     {
-        label: "Restore from backup",
-        tooltip: "opencli backup-restore <DATE> <USER> --all",
+        icon: (props: SVGProps<SVGSVGElement>) => <Sanity {...props} />,
+        label: "Sanity",
+        tooltip: "npm i refine-sanity",
     },
     {
-        label: "Fix Permissions",
-        tooltip: "opencli files-fix_permissions [USERNAME] [PATH]",
+        icon: (props: SVGProps<SVGSVGElement>) => <SQLite {...props} />,
+        label: "SQLite",
+        tooltip: "npm i refine-sqlite",
     },
     {
-        label: "Install ModSecurity",
-        tooltip: "opencli nginx-install_modsec",
+        icon: (props: SVGProps<SVGSVGElement>) => <JSONApi {...props} />,
+        label: "JSON:API",
+        tooltip: "npm i refine-jsonapi",
     },
 ];
