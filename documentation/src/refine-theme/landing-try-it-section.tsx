@@ -284,7 +284,7 @@ const LandingTryItOptionsSection = ({
                             "landing-lg:max-w-[446px]",
                         )}
                     >
-                        Install the OpenPanel trial and explore its features for a complimentary 15-day testing period.
+			Try out OpenPanel's trial for free and explore its features for 15 days.
                     </p>
                     <LandingCopyCommandButton />
                 </div>
