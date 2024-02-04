@@ -62,8 +62,7 @@ const Logo = (props: React.SVGProps<SVGSVGElement>) => (
  width="24" height="24" viewBox="0 0 213.000000 215.000000"
  preserveAspectRatio="xMidYMid meet">
 
-<g transform="translate(0.000000,215.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<g transform="translate(0.000000,215.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
 <path d="M990 2071 c-39 -13 -141 -66 -248 -129 -53 -32 -176 -103 -272 -158
 -206 -117 -276 -177 -306 -264 -17 -50 -19 -88 -19 -460 0 -476 0 -474 94
 -568 55 -56 124 -98 604 -369 169 -95 256 -104 384 -37 104 54 532 303 608
