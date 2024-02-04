@@ -173,7 +173,7 @@ const siteConfig = {
                 },
             ],
         },
-        image: "img/refine_social.png",
+        image: "img/openpanel_social.png",
         algolia: {
             appId: "AEUKT9VWIW",
             apiKey: '8c38649d5d06ae64c7d6c595b9dcf4ac',
@@ -187,7 +187,7 @@ const siteConfig = {
             {
                 name: "keywords",
                 content:
-                    "react-admin, react-framework, internal-tool, admin-panel, ant-design, material ui, mui",
+                    "openpanel, openadmin, open panel, open admin, open hosting panel, open control panel",
             },
         ],
         navbar: {
