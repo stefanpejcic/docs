@@ -97,6 +97,6 @@ export const socialLinks = [
     },
     {
         icon: FooterLinkedinIcon,
-        href: "https://www.linkedin.com/company/",
+        href: "https://www.linkedin.com/company/openpanel/",
     },
 ];

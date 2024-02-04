@@ -135,7 +135,7 @@ const siteConfig = {
                           blogSidebarCount: 0,
                           feedOptions: {
                               type: "all",
-                              copyright: `Copyright © ${new Date().getFullYear()} refine.`,
+                              copyright: `Copyright © ${new Date().getFullYear()} OpenPanel.`,
                           },
                       },
                   ],
@@ -179,10 +179,7 @@ const siteConfig = {
             apiKey: '8c38649d5d06ae64c7d6c595b9dcf4ac',
             indexName: 'codex-openpanel',
             contextualSearch: true,
-//            replaceSearchResultPathname: {
-//                from: '/docs/', // or as RegExp: /\/docs\//
-//                to: '/',
-//           },
+            replaceSearchResultPathname: {from: '/docs/',to: '/',},
             searchParameters: {},
             searchPagePath: 'search',
         },
@@ -316,7 +313,7 @@ const siteConfig = {
                             label: "twitter",
                         },
                         {
-                            href: "https://www.linkedin.com/company/",
+                            href: "https://www.linkedin.com/company/openpanel/",
                             label: "linkedin",
                         },
                     ],
@@ -339,7 +336,7 @@ const siteConfig = {
         contactTitle: "Contact",
         contactDescription: [
             "OpenPanel Co.",
-            "256 neka adresa 31 Amsterdam, NL 19702",
+            "256 Amsterdam, NL 19702",
         ],
         contactEmail: "info@openpanel.co",
         /** ---- */
