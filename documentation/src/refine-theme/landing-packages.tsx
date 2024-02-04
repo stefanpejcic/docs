@@ -147,7 +147,7 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                             "dark:text-gray-300 text-gray-900",
                         )}
                     >
-                        Support for your favorite tools and technologies
+                        100+ terminal commands
                     </h6>
                     <div
                         className={clsx(
@@ -167,10 +167,10 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                                 "dark:text-gray-400 text-gray-600",
                             )}
                         >
-                            Out-of-the box support for 15+ tools including Deno and ElasticSearch.
+                            OpenCLI serves as the command line interface, enabling you to execute all actions through the terminal.
                         </p>
-                        <LandingSectionCtaButton to="/integrations">
-                            Supported Services
+                        <LandingSectionCtaButton to="/docs/category/openpanel-cli/">
+                            All Commands
                         </LandingSectionCtaButton>
                     </div>
                 </div>
