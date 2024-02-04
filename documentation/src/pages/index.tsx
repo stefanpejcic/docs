@@ -4,7 +4,9 @@ import React from "react";
 
 import { CommonLayout } from "../refine-theme/common-layout";
 import { LandingFooter } from "../refine-theme/landing-footer";
+import { LandingCommunity } from "../refine-theme/landing-community";
 import { LandingEnterpriseDevelopers } from "../refine-theme/landing-enterprise-developers";
+import { LandingTrustedByDevelopers } from "../refine-theme/landing-trusted-by-developers";
 import { LandingPackages } from "../refine-theme/landing-packages";
 import { LandingAlreadyInvented } from "../refine-theme/landing-already-invented";
 import { LandingPureReactCode } from "../refine-theme/landing-pure-react-code";
@@ -12,6 +14,7 @@ import { LandingSweetSpot } from "../refine-theme/landing-sweet-spot";
 import { LandingHeroSection } from "../refine-theme/landing-hero-section";
 import { LandingTryItSection } from "../refine-theme/landing-try-it-section";
 import { CommonHeader } from "../refine-theme/common-header";
+import { LandingTestimonial } from "../refine-theme/landing-testimonial";
 
 function Home() {
     const title = "OpenPanel | Next Generation Web Hosting Panel";
@@ -48,6 +51,14 @@ function Home() {
                             )}
                         >
                             <LandingHeroSection />
+                            <LandingTrustedByDevelopers
+                                className={clsx(
+                                    "mt-12",
+                                    "landing-sm:mt-20",
+                                    "landing-md:mt-28",
+                                    "landing-lg:mt-10",
+                                )}
+                            />
                         </div>
                         <LandingSweetSpot />
                         <div
@@ -76,7 +87,9 @@ function Home() {
                             </div>
                         </div>
                         <LandingEnterpriseDevelopers />
-                       <LandingTryItSection />
+                        <LandingCommunity />
+                        <LandingTestimonial />
+                        <LandingTryItSection />
                     </div>
                     <LandingFooter />
                 </div>
