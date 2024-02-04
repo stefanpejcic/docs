@@ -20,7 +20,7 @@ const siteConfig = {
     projectName: "docs",
     organizationName: "stefanpejcic",
     trailingSlash: true,
-    favicon: "img/refine_favicon.svg",
+    favicon: "img/favicon.svg",
     scripts: ["https://platform.twitter.com/widgets.js"],
     presets: [
         [

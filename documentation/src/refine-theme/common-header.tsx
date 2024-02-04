@@ -80,7 +80,19 @@ export const CommonHeader = ({ trackProgress }: Props) => {
                         >
                             <Link to="/" onContextMenu={openFigma}>
                                 <RefineLogoIcon className="text-gray-900 dark:text-gray-0" />
-                            </Link>
+                            
+                <span
+                    className={clsx(
+                        "text-gray-1000 dark:text-gray-0",
+                        "text-base",
+                        "font-bold",
+                    )}
+                >
+                    OpenPanel
+                </span>
+
+
+</Link>
                         </div>
                         <button
                             type="button"

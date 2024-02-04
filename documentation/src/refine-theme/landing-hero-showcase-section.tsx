@@ -616,6 +616,13 @@ const apps = [
         label: "See live demo",
     },
     {
+        name: "OpenBackup",
+        link: "https://demo.openpanel.co/",
+        showcase: ShowcaseDevOps,
+        dark: true,
+        label: "More info",
+    },
+    {
         name: "OpenCLI",
         link: "https://demo.openpanel.co/",
         showcase: ShowcaseDevOps,
