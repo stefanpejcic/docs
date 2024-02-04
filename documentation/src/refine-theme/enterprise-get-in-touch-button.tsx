@@ -20,7 +20,7 @@ export const EnterpriseGetInTouchButton: FC<Props> = (props) => {
             )}
         >
             <Link
-                href="https://google.com"
+                href="mailto:info@openpanel.co"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={clsx(
