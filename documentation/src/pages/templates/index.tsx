@@ -24,7 +24,7 @@ import { TemplatesFilterButton } from "@site/src/refine-theme/templates-filter-b
 import { CommonDrawer } from "@site/src/refine-theme/common-drawer";
 
 const Templates: React.FC = () => {
-    const title = "Refine | Open-source Retool for Enterprise";
+    const title = "OpenPanel | Next Generation Hosting Panel";
 
     const [isFilterDrawerOpen, setIsFilterDrawerOpen] = React.useState(false);
 
