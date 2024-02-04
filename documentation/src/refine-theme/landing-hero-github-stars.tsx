@@ -1,15 +1,12 @@
 import React from "react";
 import clsx from "clsx";
-import { useCommunityStatsContext } from "../context/CommunityStats";
 import { OrangeStarIcon } from "./icons/orange-star";
-import { Spinner } from "./spinner";
 
 export const LandingHeroGithubStars = () => {
-    const { loading, githubStarCountText } = useCommunityStatsContext();
 
     return (
         <a
-            href="/beta"
+            href="/docs/changelog/0.1/#015"
             target="_blank"
             rel="noopener noreferrer"
             className={clsx(
@@ -97,22 +94,9 @@ export const LandingHeroGithubStars = () => {
                     )}
                 >
                     <span className={clsx("font-semibold")}>
-                        {loading ? (
-                            <Spinner
-                                className={clsx("w-3.5 h-3.5", "inline")}
-                                wrapperProps={{
-                                    className: clsx(
-                                        "h-3.5",
-                                        "inline-block",
-                                        "w-[4ch]",
-                                    ),
-                                }}
-                            />
-                        ) : (
-                            <span>{githubStarCountText}</span>
-                        )}
+                            OpenPanel{" "}<span>v0.1.5 BETA</span>
                     </span>{" "}
-                    <span>active installations so far</span>
+                    <span>is out</span>
                 </span>
             </div>
         </a>
