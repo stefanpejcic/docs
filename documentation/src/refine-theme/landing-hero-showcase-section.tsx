@@ -336,7 +336,7 @@ const ShowcaseDevOps = ({ className }: { className?: string }) => {
         <ShowcaseWrapper
             className={className}
             dark
-            render="/img/openadmin.png"
+            render="/img/opencli_preview.png"
             highlights={[
             ]}
         />
