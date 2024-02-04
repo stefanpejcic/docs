@@ -112,30 +112,24 @@ export const LandingPackages: FC<Props> = ({ className }) => {
                         "pt-4 landing-md:pt-10",
                     )}
                 >
-                    <PackagesContainer animDirection="right">
-                        {[...listOne, ...listOne].map(
-                            ({ icon: Icon, label, tooltip }, index) => (
-                                <PackageItem
-                                    key={index}
-                                    label={label}
-                                    tooltip={tooltip}
-                                    icon={<Icon width="24" height="24" />}
-                                />
-                            ),
-                        )}
-                    </PackagesContainer>
-                    <PackagesContainer animDirection="left">
-                        {[...listTwo, ...listTwo].map(
-                            ({ icon: Icon, label, tooltip }, index) => (
-                                <PackageItem
-                                    key={index}
-                                    label={label}
-                                    tooltip={tooltip}
-                                    icon={<Icon width="24" height="24" />}
-                                />
-                            ),
-                        )}
-                    </PackagesContainer>
+                <PackagesContainer animDirection="right">
+                    {listOne.map(({ label, tooltip }, index) => (
+                        <PackageItem
+                            key={index}
+                            label={label}
+                            tooltip={tooltip}
+                        />
+                    ))}
+                </PackagesContainer>
+                <PackagesContainer animDirection="left">
+                    {listTwo.map(({ label, tooltip }, index) => (
+                        <PackageItem
+                            key={index}
+                            label={label}
+                            tooltip={tooltip}
+                        />
+                    ))}
+                </PackagesContainer>
                 </div>
 
                 <div
@@ -326,82 +320,66 @@ const PackageItem = (props: {
 
 const listOne = [
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Disable admin panel",
         tooltip: "opencli admin off",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "List Users",
         tooltip: "opencli user-list",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Reset Password",
         tooltip: "opencli user-password <USERNAME> <NEW_PASSWORD>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Set nameservers",
         tooltip: "opencli config update ns1 <NAMESERVER>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "View logout URL",
         tooltip: "opencli config get logout_url",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "List plans",
         tooltip: "opencli plan-list",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Disable 2FA",
         tooltip: "opencli user-2fa <USERNAME> disable",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "View Backup Jobs",
         tooltip: "opencli backup-job list",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "List SSLs",
         tooltip: "opencli ssl-user <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Add a new user",
         tooltip: "opencli user-add <USERNAME> <PASSWORD> <EMAIL> <PLAN_ID>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "List backups",
         tooltip: "opencli backup-list <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Set brand name",
         tooltip: "opencli config update brand_name <NAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Change PHP version for domain",
         tooltip: "opencli php-domain_php <DOMAIN-NAME> --update <PHP-VERSION>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Who owns Domain",
         tooltip: "opencli domains-whoowns <DOMAIN-NAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Assign IP",
         tooltip: "opencli user-ip <USERNAME> <IP_ADDRESS>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Enable Memcached",
         tooltip: "opencli user-memcached enable <USERNAME>",
     },
@@ -409,72 +387,58 @@ const listOne = [
 
 const listTwo = [
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Change OpenPanel port",
         tooltip: "opencli config update port <NEW-PORT>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Add Backup Destination",
         tooltip: "opencli backup-destination create <HOSTNAME> <PASSWORD> <PORT> <USER> <PATH_TO_SSH_KEY_FILE> <STORAGE_PERCENTAGE>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Generate hostname SSL",
         tooltip: "opencli ssl-hostname",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "View Login Log",
         tooltip: "opencli user-loginlog <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Install new PHP version",
         tooltip: "opencli php-install_php_version <USERNAME> <PHP-VERSION>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "List user domains",
         tooltip: "opencli domains-user <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Suspend user",
         tooltip: "opencli user-suspend <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Re-index backups",
         tooltip: "opencli backup-index <ID>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Get PHP version for domain",
         tooltip: "opencli php-domain_php <DOMAIN-NAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Check Resource Usage",
         tooltip: "opencli docker-collect_stats",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Login to User",
         tooltip: "opencli user-login <USERNAME>",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Restore from backup",
         tooltip: "opencli backup-restore <DATE> <USER> --all",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Fix Permissions",
         tooltip: "opencli files-fix_permissions [USERNAME] [PATH]",
     },
     {
-        icon: (props: SVGProps<SVGSVGElement>) => ,
         label: "Install ModSecurity",
         tooltip: "opencli nginx-install_modsec",
     },
