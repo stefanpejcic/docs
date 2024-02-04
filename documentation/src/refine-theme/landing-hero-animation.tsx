@@ -17,7 +17,7 @@ import { LandingHeroNestjsIcon } from "./icons/landing-hero/nestjs";
 import { LandingHeroNextjsIcon } from "./icons/landing-hero/nextjs";
 import { LandingHeroOktaIcon } from "./icons/landing-hero/okta";
 import { LandingHeroRemixIcon } from "./icons/landing-hero/remix";
-import { LandingHeroSupabaseIcon } from "./icons/landing-hero/supabase";
+import { LandingHeroNginxIcon } from "./icons/landing-hero/nginx";
 import { LandingHeroViteIcon } from "./icons/landing-hero/vite";
 import { LandingHeroAnimationItem } from "./landing-hero-animation-item";
 
@@ -85,7 +85,7 @@ const uiItems: ItemType[] = [
 const backendItems: ItemType[] = [
     {
         name: "Nginx",
-        icon: LandingHeroSupabaseIcon,
+        icon: LandingHeroNginxIcon,
         color: "#3ECF8E",
     },
     {

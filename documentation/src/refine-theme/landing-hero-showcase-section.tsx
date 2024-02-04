@@ -358,15 +358,15 @@ const ShowcaseBackup = ({ className }: { className?: string }) => {
 
 const apps = [
     {
-        name: "OpenPanel",
-        link: "https://demo.openpanel.co/openpanel/",
-        showcase: ShowcaseCRM,
-        label: "See live demo",
-    },
-    {
         name: "OpenAdmin",
         link: "https://demo.openpanel.co/openadmin/",
         showcase: ShowcaseHR,
+        label: "See live demo",
+    },
+    {
+        name: "OpenPanel",
+        link: "https://demo.openpanel.co/openpanel/",
+        showcase: ShowcaseCRM,
         label: "See live demo",
     },
     {
