@@ -1,12 +1,21 @@
 import React from "react";
 
 export const RefineLogoIcon = (props: React.SVGProps<SVGSVGElement>) => (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-server-bolt" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
-  <path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" />
-  <path d="M7 8v.01" />
-  <path d="M7 16v.01" />
-  <path d="M20 15l-2 3h3l-2 3" />
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="24" height="24" viewBox="0 0 213.000000 215.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,215.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M990 2071 c-39 -13 -141 -66 -248 -129 -53 -32 -176 -103 -272 -158
+-206 -117 -276 -177 -306 -264 -17 -50 -19 -88 -19 -460 0 -476 0 -474 94
+-568 55 -56 124 -98 604 -369 169 -95 256 -104 384 -37 104 54 532 303 608
+353 76 50 126 113 147 184 8 30 12 160 12 447 0 395 -1 406 -22 461 -34 85
+-98 138 -317 264 -104 59 -237 136 -295 170 -153 90 -194 107 -275 111 -38 2
+-81 0 -95 -5z m205 -561 c66 -38 166 -95 223 -127 l102 -58 0 -262 c0 -262 0
+-263 -22 -276 -13 -8 -52 -31 -88 -51 -36 -21 -126 -72 -200 -115 l-135 -78
+-3 261 -3 261 -166 95 c-91 52 -190 109 -219 125 -30 17 -52 34 -51 39 3 9
+424 256 437 255 3 0 59 -31 125 -69z"/>
+</g>
 </svg>
 );
