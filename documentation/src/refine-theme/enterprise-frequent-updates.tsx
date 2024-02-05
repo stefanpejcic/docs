@@ -70,7 +70,7 @@ export const EnterpriseFrequentUpdates = ({
                                 "mt-2 landing-sm:mt-4",
                             )}
                         >
-                            Continuous updates with the latest features, bug
+                            Continuous OpenPanel updates with the latest features, bug
                             fixes, and security patches.
                         </div>
                     </div>
@@ -82,7 +82,7 @@ export const EnterpriseFrequentUpdates = ({
                                 "font-semibold",
                             )}
                         >
-                            Codemod Support
+                            Container Updates
                         </div>
                         <div
                             className={clsx(
@@ -91,9 +91,7 @@ export const EnterpriseFrequentUpdates = ({
                                 "mt-2 landing-sm:mt-4",
                             )}
                         >
-                            Major updates released as Codemod transformations to
-                            programmatically update your codebase without any
-                            manual intervention.
+                            In-container updates that will automatically apply security patches and update OS and services in your users docker containers without any manual intervention.
                         </div>
                     </div>
                 </div>
